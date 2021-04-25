@@ -10,24 +10,25 @@
 }
 
 #navbar {
-    background-color: #333;
     position: relative;
-    top: 680px;
+    top: 449px;
 }
 
 #navbar a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    background-color: #ede9d0;
+    color: #3a001e;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 #navbar a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #dd9b87;
+    color: #3a001e;
+    ;
 }
 
 #navbar a.active {
