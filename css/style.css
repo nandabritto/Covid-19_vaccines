@@ -32,20 +32,47 @@
 }
 
 #navbar a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #3a001e;
+    color: #dd9b87;
 }
 
-.content {
-    padding: 16px;
+/* 1st section */
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
+p,
+#navbar {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
-.sticky+.content {
-    padding-top: 60px;
+.container {
+    display: flex;
+}
+
+.inline {
+    background: #ede9d0;
+    flex-basis: auto;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+#explanation {
+    float: left;
+    padding-top: 100px;
+
+}
+
+#youtubevideo {
+    float: right;
+}
+
+#video {
+    width: 1200px;
+    height: 900px;
 }
