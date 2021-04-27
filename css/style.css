@@ -1,17 +1,15 @@
 /* header */
 
 #logo {
-    background-image: url(/images/pexels-cottonbro-3952219.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position-y: 55%;
-    height: 500px;
+    height: 600px;
+    width: 100%;
+    background: url(/images/pexels-cottonbro-39522192.jpg) no-repeat 15% center;
     position: relative;
 }
 
 #navbar {
     position: relative;
-    top: 449px;
+    padding:500px 5px;
 }
 
 #navbar a {
@@ -20,10 +18,9 @@
     background-color: #ede9d0;
     color: #3a001e;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px;
     text-decoration: none;
-    font-size: 20px;
-}
+    }
 
 #navbar a:hover {
     background-color: #dd9b87;
@@ -44,41 +41,59 @@ h2 {
     text-align: center;
 }
 
-
 p,
 #navbar {
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
-.container {
-    display: flex;
+/* Responsive layout - makes navbar stack on top of each other instead of next to each other */
 
+* {
+    box-sizing: border-box;
 }
 
-.inline {
-    background: #ede9d0;
-    flex-basis: auto;
-    min-height: 600px;
-    padding: 30px;
-
-}
-
-#explanation {
+.column-1 {
     float: left;
-    width: 30%;
-    
-
+    width: 33%;
+    padding: 10px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    vertical-align: middle;
 }
 
-#youtubevideo {
+.column-2 {
     float: right;
-    width: 100%;
+    width: 66%;
+    padding: 10px;
+    height: 600px;
+    align-items: center;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #video {
     width: 100%;
     height: 100%;
+    margin: auto;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    .column-1,
+    .column-2 {
+        width: 100%;
+        max-height: 600px;
+    }
 }
 
 /* footer */
