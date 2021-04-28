@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #ede9d0;
 }
 
@@ -9,13 +9,13 @@ body{
     width: 100%;
     background: url(/images/pexels-cottonbro-39522192\(bigscreen\).jpg) no-repeat center center;
     position: relative;
-    background-size:cover;
+    background-size: cover;
 }
 
 
 #navbar {
     position: relative;
-    padding:500px 5px;
+    padding: 500px 5px;
 }
 
 #navbar a {
@@ -26,7 +26,7 @@ body{
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    }
+}
 
 #navbar a:hover {
     background-color: #dd9b87;
@@ -39,29 +39,19 @@ body{
     color: #dd9b87;
 }
 
-@media only screen and (max-width: 1024px) {
-    #logo {
-      background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
-      position: relative;
-    background-size:cover;
-    }
-  }
-
-  @media only screen and (max-width: 600px) {
-    #logo {
-      background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
-      position: relative;
-    background-size:cover;
-    }
-  }
-
 
 /* 1st section */
 
-h2 {
+h1,
+h2,
+h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
 }
 
 p,
@@ -70,7 +60,9 @@ p,
     text-align: center;
 }
 
-/* Responsive layout - makes navbar stack on top of each other instead of next to each other */
+#what {
+    height: 600px;
+}
 
 * {
     box-sizing: border-box;
@@ -109,15 +101,6 @@ p,
     margin: auto;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-
-    .column-1,
-    .column-2 {
-        width: 100%;
-        max-height: 600px;
-    }
-}
 
 /* footer */
 
@@ -130,4 +113,81 @@ p,
     font-size: small;
     padding: 10px;
     line-height: 0.3em;
+}
+
+/* importance*/
+
+#importance {
+    height: 600px;
+}
+
+.right-about-1 {
+    padding-top: 30px;
+    width: 66%;
+    float: right;
+}
+
+.left-about-1 {
+    padding-top: 30px;
+    width: 66%;
+    float: left;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+
+@media only screen and (max-width: 1024px) {
+    #logo {
+        background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
+        position: relative;
+        background-size: cover;
+    }
+
+    #what {
+        height: 1200px;
+    }
+
+    #row {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #importance {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #logo {
+        background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
+        position: relative;
+        background-size: cover;
+    }
+
+
+    .column-1,
+    .column-2 {
+        width: 100%;
+        max-height: 600px;
+    }
+
+
+    #row {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #importance {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+    .right-about-1, .left-about-1{
+        width: 100%;
+        text-align: center;
+    }
 }
