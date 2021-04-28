@@ -1,11 +1,17 @@
+body{
+    background-color: #ede9d0;
+}
+
 /* header */
 
 #logo {
     height: 600px;
     width: 100%;
-    background: url(/images/pexels-cottonbro-39522192.jpg) no-repeat 15% center;
+    background: url(/images/pexels-cottonbro-39522192\(bigscreen\).jpg) no-repeat center center;
     position: relative;
+    background-size:cover;
 }
+
 
 #navbar {
     position: relative;
@@ -33,6 +39,23 @@
     color: #dd9b87;
 }
 
+@media only screen and (max-width: 1024px) {
+    #logo {
+      background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
+      position: relative;
+    background-size:cover;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    #logo {
+      background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
+      position: relative;
+    background-size:cover;
+    }
+  }
+
+
 /* 1st section */
 
 h2 {
@@ -56,7 +79,7 @@ p,
 .column-1 {
     float: left;
     width: 33%;
-    padding: 10px;
+    padding: 50px;
     height: 600px;
     text-align: center;
     display: flex;
@@ -69,7 +92,7 @@ p,
 .column-2 {
     float: right;
     width: 66%;
-    padding: 10px;
+    padding: 50px;
     height: 600px;
     align-items: center;
 }
