@@ -137,15 +137,15 @@ p,
 
 .buttons-section {
     height: 150px;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .btn {
-    display: inline-block;
-    font-weight: 400;
-    font-size: 30px;
+    display:block;
+    font-size: 1.5vw;
     color: #ede9d0;
     background-color: #3a001e;
     vertical-align: middle;
@@ -157,9 +157,12 @@ p,
     text-decoration: none;
     text-align: center;
 }
-.btn:hover{
-    color:#3a001e;
-    background-color:#DD5632;
+
+
+
+.btn:hover {
+    color: #3a001e;
+    background-color: #DD5632;
 }
 
 
@@ -188,6 +191,9 @@ p,
         height: 1200px;
         margin: 0 auto;
     }
+
+    .btn-responsive{
+        font-size:3vw;
 }
 
 @media only screen and (max-width: 600px) {
@@ -222,4 +228,15 @@ p,
         width: 100%;
         text-align: center;
     }
-}
+
+    .buttons-section-responsive{
+        display:block !important;
+        height:auto;
+    }
+
+    .btn-responsive{
+        font-size:4vw;
+    }
+
+    
+    }
