@@ -15,7 +15,7 @@ body {
 
 #navbar {
     position: relative;
-    padding: 500px 5px;
+    padding-top: 500px;
 }
 
 #navbar a {
@@ -133,6 +133,32 @@ p,
     float: left;
 }
 
+/* types */
+
+.buttons-section {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ede9d0;
+    background-color: #3a001e;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    border-radius: .25rem;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
 
@@ -186,7 +212,9 @@ p,
         height: 1200px;
         margin: 0 auto;
     }
-    .right-about-1, .left-about-1{
+
+    .right-about-1,
+    .left-about-1 {
         width: 100%;
         text-align: center;
     }
