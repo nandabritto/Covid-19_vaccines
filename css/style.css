@@ -132,10 +132,17 @@ p,
     float: right;
     padding-top: 5%;
     padding-right: 20%;
-
 }
 
 #earth-image {
+    background: url('/images/earth_covid_syringe2.jpg') no-repeat center;
+    background-size: auto;
+    border: 6px double #3a001e;
+    height: 200px;
+    background-size: cover;
+}
+
+#germs-image {
     background: url('/images/earth_covid_syringe2.jpg') no-repeat center;
     background-size: auto;
     border: 6px double #3a001e;
