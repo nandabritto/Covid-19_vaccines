@@ -122,10 +122,11 @@ p,
     padding: 0 10%;
 }
 
-.importance-container{
-    clear:both;
-    padding:10px;
+.importance-container {
+    clear: both;
+    padding: 10px;
 }
+
 #left-about {
     width: 50%;
     float: left;
@@ -180,11 +181,25 @@ p,
     text-align: center;
 }
 
-
+a{
+    text-decoration:none;
+    color: #3a001e;
+}
 
 .btn:hover {
     color: #3a001e;
     background-color: #DD5632;
+}
+
+#rna-vaccine {
+    background-color: rgba(58, 0, 30, 0.1);
+    padding: 0.5% 2%;
+    margin: 0 10%;
+}
+
+#rna-vaccine>p {
+    font: italic 16px Open Sans, serif;
+    text-align: justify;
 }
 
 /* efficacy */
