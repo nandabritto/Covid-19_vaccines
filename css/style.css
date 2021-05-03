@@ -128,11 +128,26 @@ p,
 }
 
 .left-about-1 {
-    padding-top: 30px;
+    padding: 60px 0 30px 200px;
     width: 66%;
     float: left;
 }
 
+.right-picture{
+    float:right;
+    width:33%;
+    
+}
+
+.shape-container {
+    height: auto;
+    padding: 30px;
+    border:  4px double#3a001e;
+    margin: 0 auto;
+    background: url('/images/earth_covid_syringe2.jpg') no-repeat center center;
+    height: 200px;
+    background-size:cover;
+}
 /* types */
 
 .buttons-section {
