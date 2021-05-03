@@ -118,9 +118,14 @@ p,
 /* importance*/
 
 #importance {
-    height: 600px;
+    height: 650px;
+    padding: 0 10%;
 }
 
+.importance-container{
+    clear:both;
+    padding:10px;
+}
 #left-about {
     width: 50%;
     float: left;
@@ -143,7 +148,7 @@ p,
 }
 
 #germs-image {
-    background: url('/images/earth_covid_syringe2.jpg') no-repeat center;
+    background: url('/images/стоп\ коронавирус\ \ 2.jpg') no-repeat center;
     background-size: auto;
     border: 6px double #3a001e;
     height: 200px;
