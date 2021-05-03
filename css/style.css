@@ -121,33 +121,28 @@ p,
     height: 600px;
 }
 
-.right-about-1 {
-    padding-top: 30px;
-    width: 66%;
-    float: right;
-}
-
-.left-about-1 {
-    padding: 60px 0 30px 200px;
-    width: 66%;
+#left-about {
+    width: 50%;
     float: left;
+    padding-left: 30%;
 }
 
-.right-picture{
-    float:right;
-    width:33%;
-    
+#right-about {
+    width: 50%;
+    float: right;
+    padding-top: 5%;
+    padding-right: 20%;
+
 }
 
-.shape-container {
-    height: auto;
-    padding: 30px;
-    border:  4px double#3a001e;
-    margin: 0 auto;
-    background: url('/images/earth_covid_syringe2.jpg') no-repeat center center;
+#earth-image {
+    background: url('/images/earth_covid_syringe2.jpg') no-repeat center;
+    background-size: auto;
+    border: 6px double #3a001e;
     height: 200px;
-    background-size:cover;
+    background-size: cover;
 }
+
 /* types */
 
 .buttons-section {
@@ -311,54 +306,71 @@ p,
         margin: 0 auto;
     }
 
+    #left-about {
+        padding-left: 0%;
+
+    }
+
+
+    #right-about {
+        padding-right: 0;
+    }
+
     .btn-responsive {
         font-size: 3vw;
     }
+}
 
-    @media only screen and (max-width: 600px) {
-        #logo {
-            background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
-            position: relative;
-            background-size: cover;
-        }
-
-
-        .column-1,
-        .column-2 {
-            width: 100%;
-            max-height: 600px;
-        }
-
-
-        #row {
-            width: 90%;
-            height: 1200px;
-            margin: 0 auto;
-        }
-
-        #importance {
-            width: 90%;
-            height: 1200px;
-            margin: 0 auto;
-        }
-
-        .right-about-1,
-        .left-about-1 {
-            width: 100%;
-            text-align: center;
-        }
-
-        .buttons-section-responsive {
-            display: block !important;
-            height: auto;
-        }
-
-        .btn-responsive {
-            font-size: 4vw;
-        }
-
-        .text {
-            font-size: 3vw;
-        }
-
+@media only screen and (max-width: 600px) {
+    #logo {
+        background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
+        position: relative;
+        background-size: cover;
     }
+
+    #left-about,
+    #right-about {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+
+    .column-1,
+    .column-2 {
+        width: 100%;
+        max-height: 600px;
+    }
+
+
+    #row {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #importance {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .right-about-1,
+    .left-about-1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .buttons-section-responsive {
+        display: block !important;
+        height: auto;
+    }
+
+    .btn-responsive {
+        font-size: 4vw;
+    }
+
+    .text {
+        font-size: 3vw;
+    }
+
+}
