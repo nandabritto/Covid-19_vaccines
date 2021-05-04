@@ -26,6 +26,7 @@ body {
     text-align: center;
     padding: 10px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #navbar a:hover {
@@ -53,7 +54,7 @@ h3 {
 
 p {
     font-family: 'Open Sans', sans-serif;
-    text-align: justify;
+    text-align: center;
     padding:0 10px;
 }
 
@@ -115,7 +116,7 @@ p {
 /* importance*/
 
 #importance {
-    height: 650px;
+    height: 750px;
     padding: 0 10%;
 }
 
@@ -133,7 +134,7 @@ p {
 #right-about {
     width: 50%;
     float: right;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-right: 20%;
 }
 
@@ -183,17 +184,23 @@ a {
     color: #3a001e;
 }
 
+a:hover{
+    color:#DD5632;
+}
 .btn:hover {
     color: #3a001e;
     background-color: #DD5632;
 }
 
+#vaccines-explanation{
+    padding: 1% 10%;
+}
 #rna-vaccine,
 #viral-vector-vaccine,
 #inactivated-virus-vaccine {
     background-color: rgba(58, 0, 30, 0.1);
     padding: 0.5% 2%;
-    margin: 0 10px;
+    margin: 1% 10px;
 
 }
 
@@ -210,6 +217,7 @@ a {
 
 .float-left {
     float: left;
+    margin-right:1%;
     }
 
 
@@ -320,7 +328,6 @@ a {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 
-
 @media only screen and (max-width: 1024px) {
     #logo {
         background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
@@ -340,7 +347,7 @@ a {
 
     #importance {
         width: 90%;
-        height: 1200px;
+        height: 750px;
         margin: 0 auto;
     }
 
@@ -395,7 +402,7 @@ a {
 
     #importance {
         width: 90%;
-        height: 1200px;
+        height: 1300px;
         margin: 0 auto;
     }
 
