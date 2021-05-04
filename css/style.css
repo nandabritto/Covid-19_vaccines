@@ -48,16 +48,13 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
+    padding: 10px;
 }
 
-h1 {
-    font-size: xx-large;
-}
-
-p,
-#navbar {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    padding:0 10px;
 }
 
 #what {
@@ -181,8 +178,8 @@ p,
     text-align: center;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
     color: #3a001e;
 }
 
@@ -191,16 +188,30 @@ a{
     background-color: #DD5632;
 }
 
-#rna-vaccine {
+#rna-vaccine,
+#viral-vector-vaccine,
+#inactivated-virus-vaccine {
     background-color: rgba(58, 0, 30, 0.1);
     padding: 0.5% 2%;
-    margin: 0 10%;
+    margin: 0 10px;
+
 }
 
 #rna-vaccine>p {
     font: italic 16px Open Sans, serif;
     text-align: justify;
 }
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 40%;
+    border: 6px double #3a001e;
+    }
+
+.float-left {
+    float: left;
+    }
+
 
 /* efficacy */
 
@@ -346,10 +357,13 @@ a{
     .btn-responsive {
         font-size: 3vw;
     }
-    .responsive-squeme{
-        width:100%;
-        height:60%;
-    }
+
+    .responsive-squeme {
+        float:none !important;
+        width: 95%;
+       
+        
+           }
 }
 
 @media only screen and (max-width: 600px) {
@@ -404,9 +418,9 @@ a{
         font-size: 3vw;
     }
 
-    .responsive-squeme{
-        width:100%;
-        height:60%;
+    .responsive-squeme {
+        width: 100%;
+        height: 60%;
     }
 
 }
