@@ -45,15 +45,16 @@ body {
 
 h1,
 h2,
-h3{
+h3 {
     color: #DD5632;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
     padding: 10px;
 }
+
 h3 {
-    color:#3a001e;
+    color: #3a001e;
 }
 
 p {
@@ -68,7 +69,13 @@ p {
     text-align: right;
 }
 
-#what, .column-1, .column-2 {
+#what,
+.column-1,
+    {
+    height: auto;
+}
+
+.column-2 {
     height: 600px;
 }
 
@@ -92,8 +99,7 @@ p {
     float: right;
     width: 66%;
     padding: 50px;
-    align-items: center;
-}
+    }
 
 .row:after {
     content: "";
@@ -111,7 +117,7 @@ p {
 /* footer */
 
 .footer {
-    
+
     background-color: #DD5632;
     color: #ede9d0;
     text-align: center;
@@ -127,15 +133,18 @@ p {
 
 /* importance*/
 
-#importance {
-    height: 750px;
+#importance,
+#trust-vaccine {
+    height: auto;
     padding: 0 10%;
+    clear:both;
 }
+
 
 .importance-container {
     clear: both;
     padding: 10px;
-}
+    }
 
 #left-about {
     width: 50%;
@@ -150,9 +159,10 @@ p {
     padding-right: 20%;
 }
 
-.image{
+.image {
     border: 6px double #3a001e;
 }
+
 #earth-image {
     background: url('/images/earth_covid_syringe2.jpg') no-repeat center;
     background-size: auto;
@@ -165,6 +175,11 @@ p {
     background-size: auto;
     height: 200px;
     background-size: cover;
+}
+
+#vaccine-production-squeme {
+    width: 90%;
+    margin: 0 5%;
 }
 
 /* types */
@@ -346,19 +361,13 @@ a:hover {
         background-size: cover;
     }
 
-    #what {
-        height: 1200px;
-    }
-
     #row {
         width: 90%;
-        height: 1200px;
         margin: 0 auto;
     }
 
     #importance {
         width: 90%;
-        height: 750px;
         margin: 0 auto;
     }
 
@@ -411,7 +420,6 @@ a:hover {
 
     #importance {
         width: 90%;
-        height: 1300px;
         margin: 0 auto;
     }
 
@@ -439,4 +447,8 @@ a:hover {
         height: 60%;
     }
 
+    #vaccine-production-squeme {
+        width: 100%;
+        margin: 0;
+    }
 }
