@@ -169,7 +169,6 @@ p {
     font-size: 1.5vw;
     color: #ede9d0;
     background-color: #3a001e;
-    vertical-align: middle;
     border: 1px solid transparent;
     line-height: 1.5;
     border-radius: .25rem;
@@ -246,7 +245,8 @@ a:hover{
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: # font-weight: bold;
+    color: #DD5632;
+    font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
