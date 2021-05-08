@@ -7,15 +7,15 @@ body {
 #logo {
     height: 600px;
     width: 100%;
-    background: url(assets/images/pexels-cottonbro-39522192\(bigscreen\).jpg) no-repeat center center;
+    background: url(/images/pexels-cottonbro-39522192\(bigscreen\).jpg) no-repeat center center;
     position: relative;
     background-size: cover;
 }
 
 
 #navbar {
-    position: relative;
-    padding-top: 500px;
+    position: absolute;
+    bottom:0;
 }
 
 #navbar a {
@@ -66,9 +66,9 @@ a {
 }
 
 .source {
-    font-size: xx-small;
+    font-size: xx-small!important;
     text-align: right;
-    line-height: 0.6rem;
+    line-height: 0.4em !important;
 
 }
 
@@ -415,7 +415,7 @@ a:hover {
 
 @media only screen and (max-width: 600px) {
     #logo {
-        background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
+        background: url('/images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
         position: relative;
         background-size: cover;
     }
