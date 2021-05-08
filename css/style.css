@@ -1,7 +1,3 @@
-body {
-    background-color: #ede9d0;
-}
-
 /* header */
 
 #logo {
@@ -15,7 +11,7 @@ body {
 
 #navbar {
     position: absolute;
-    bottom:0;
+    bottom: 0;
 }
 
 #navbar a {
@@ -66,12 +62,19 @@ a {
 }
 
 .source {
-    font-size: xx-small!important;
+    font-size: xx-small !important;
     text-align: right;
     line-height: 1em !important;
 
 }
 
+iframe {
+    width: 560px;
+    height: 315px;
+    margin: 2% 30%;
+}
+
+/* delete
 #what,
 .column-1 {
     height: auto;
@@ -83,11 +86,13 @@ a {
     width: 66%;
     padding: 1%;
 }
+*/
 
 * {
     box-sizing: border-box;
 }
 
+/* delete
 .column-1 {
     float: left;
     width: 33%;
@@ -99,29 +104,32 @@ a {
     flex-direction: column;
     vertical-align: middle;
 }
-
+*/
+/* delete 
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-
+*/
+/* delete 
 #video {
     width: 100%;
     height: 100%;
     margin: auto;
 }
-
+*/ 
 
 /* footer */
 
-footer{
+footer {
     background-color: #DD5632;
     padding: 10px;
 }
+
 .footer {
 
-       color: #ede9d0;
+    color: #ede9d0;
     text-align: center;
     font-size: small !important;
     line-height: 2.6px !important;
@@ -341,8 +349,7 @@ a:hover {
     width: 100%;
 }
 
-.title {
-    background-color: rgba(58, 0, 30, 0.1);
+
 
 }
 
@@ -377,6 +384,7 @@ a:hover {
         background-size: cover;
     }
 
+    /* delete 
     .row {
         width: 90%;
         margin: 0 auto;
@@ -388,6 +396,7 @@ a:hover {
         width: 100%;
         padding: 0 1%;
     }
+*/
 
     #importance {
         width: 90%;
@@ -429,6 +438,7 @@ a:hover {
         padding: 0;
     }
 
+    /* delete 
     .column-1,
     .column-2 {
         width: 100%;
@@ -440,6 +450,7 @@ a:hover {
         height: auto;
         margin: 0 auto;
     }
+*/
 
     #importance {
         width: 90%;
