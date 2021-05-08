@@ -7,7 +7,7 @@ body {
 #logo {
     height: 600px;
     width: 100%;
-    background: url(/images/pexels-cottonbro-39522192\(bigscreen\).jpg) no-repeat center center;
+    background: url(assets/images/pexels-cottonbro-39522192\(bigscreen\).jpg) no-repeat center center;
     position: relative;
     background-size: cover;
 }
