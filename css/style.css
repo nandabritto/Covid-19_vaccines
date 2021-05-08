@@ -46,7 +46,7 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 2% 0;
+    padding: 2% 0 0 2%;
 }
 
 h3 {
@@ -118,7 +118,7 @@ iframe {
     height: 100%;
     margin: auto;
 }
-*/ 
+*/
 
 /* footer */
 
@@ -137,7 +137,7 @@ footer {
 
 /* importance*/
 
-#importance,
+.importance,
 #trust-vaccine {
     height: auto;
     padding: 0 10%;
@@ -147,38 +147,41 @@ footer {
 
 .importance-container {
     clear: both;
-    padding: 10px;
 }
 
 #left-about {
     width: 50%;
     float: left;
-    padding-left: 30%;
+    padding-left: 20%;
+}
+
+.right-earth-text {
+    padding-top: 6% !important;
 }
 
 #right-about {
     width: 50%;
     float: right;
     padding-top: 3%;
-    padding-right: 20%;
+    padding-right: 28%;
 }
 
 .image {
-    border: 6px double #3a001e;
+    border-radius: 50%;
 }
 
 #earth-image {
     background: url('/images/earth_covid_syringe2.jpg') no-repeat center;
-    background-size: auto;
-    height: 200px;
-    background-size: cover;
+    height: 250px;
+    background-size: contain;
+
 }
 
 #germs-image {
     background: url('/images/стоп\ коронавирус\ \ 2.jpg') no-repeat center;
     background-size: auto;
     height: 200px;
-    background-size: cover;
+    background-size: contain;
 }
 
 #vaccine-production-squeme {
@@ -403,7 +406,8 @@ a:hover {
         margin: 0 auto;
     }
 
-    #left-about {
+    /* delete
+    #left-about- {
         padding-left: 0%;
 
     }
@@ -412,7 +416,7 @@ a:hover {
     #right-about {
         padding-right: 0;
     }
-
+*/
     .btn-responsive {
         font-size: 3vw;
     }
@@ -432,13 +436,12 @@ a:hover {
     }
 
     #left-about,
-    #right-about {
+    #left-about, .right-earth-text, #right-about{
         width: 100%;
-        float: left;
         padding: 0;
     }
 
-    /* delete 
+    /* delete s
     .column-1,
     .column-2 {
         width: 100%;
@@ -457,12 +460,13 @@ a:hover {
         margin: 0 auto;
     }
 
+    /* delete
     .right-about-1,
     .left-about-1 {
         width: 100%;
         text-align: center;
     }
-
+*/
     .buttons-section-responsive {
         display: block !important;
         height: auto;
