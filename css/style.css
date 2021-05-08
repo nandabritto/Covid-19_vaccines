@@ -68,7 +68,7 @@ a {
 .source {
     font-size: xx-small!important;
     text-align: right;
-    line-height: 0.4em !important;
+    line-height: 1em !important;
 
 }
 
@@ -115,14 +115,16 @@ a {
 
 /* footer */
 
+footer{
+    background-color: #DD5632;
+    padding: 10px;
+}
 .footer {
 
-    background-color: #DD5632;
-    color: #ede9d0;
+       color: #ede9d0;
     text-align: center;
-    font-size: small;
-    padding: 10px;
-    line-height: 0.3em !important;
+    font-size: small !important;
+    line-height: 2.6px !important;
 }
 
 /* importance*/
