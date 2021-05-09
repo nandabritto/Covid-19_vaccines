@@ -10,6 +10,14 @@
 
 /* header */
 
+#header {
+    color: var(--spruce);
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 280%;
+}
+
 #logo {
     height: 450px;
     width: 100%;
@@ -138,6 +146,7 @@ iframe {
     padding: 10px;
     line-height: 0.3em !important;
 }
+
 /* importance*/
 
 .importance,
