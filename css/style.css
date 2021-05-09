@@ -1,9 +1,19 @@
+:root {
+    --silver: rgb(192, 196, 197);
+    --spruce: rgb(66, 84, 87);
+    --cardinal: rgb(211, 36, 37);
+    --chico: rgb(159, 100, 91);
+    --white: rgb(255, 255, 255);
+}
+
+
+
 /* header */
 
 #logo {
-    height: 600px;
+    height: 450px;
     width: 100%;
-    background: url(/images/pexels-cottonbro-39522192\(bigscreen\).jpg) no-repeat center center;
+    background: url('/images/header.jpg') no-repeat center 60%;
     position: relative;
     background-size: cover;
 }
@@ -15,7 +25,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--spruce);
     position: sticky;
     top: 0;
     z-index: 9999;
@@ -25,59 +35,31 @@ li {
     float: left;
 }
 
-li a {
+a {
+    font: 16px 'Roboto', sans-serif;
     display: block;
-    color: white;
+    color: var(--white);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: var(--chico);
+    color: var(--white);
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: var(--cardinal);
+    color: var(--white);
 }
-
-/*end new navbar */
-/*
-#navbar {
-    position: absolute;
-    bottom: 0;
-}
-
-
-#navbar a {
-    float: left;
-    display: block;
-    background-color: #ede9d0;
-    color: #3a001e;
-    text-align: center;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#navbar a:hover {
-    background-color: #dd9b87;
-    color: #3a001e;
-    ;
-}
-
-#navbar a.active {
-    background-color: #3a001e;
-    color: #dd9b87;
-}
-*/
 
 /* 1st section */
 
 h1,
 h2,
 h3 {
-    color: #DD5632;
+    color: var(--cardinal);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -85,13 +67,12 @@ h3 {
 }
 
 h3 {
-    color: #3a001e;
+    color: var(--chico);
 }
 
-p,
-a {
-    color: #3a001e;
-    font: 16px 'Open Sans', sans-serif !important;
+p {
+    color: var(--spruce);
+    font: 16px 'Open Sans', sans-serif;
     text-align: center;
     padding: 0 10px;
 }
@@ -147,24 +128,19 @@ iframe {
     clear: both;
 }
 */
-/* delete 
-#video {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
-*/
 
+
+*/
 /* footer */
 
 footer {
-    background-color: #DD5632;
+    background-color: var(--spruce);
     padding: 10px;
 }
 
 .footer {
 
-    color: #ede9d0;
+    color: var(--white);
     text-align: center;
     font-size: small !important;
     line-height: 2.6px !important;
@@ -199,7 +175,7 @@ footer {
     width: 50%;
     float: right;
     padding-top: 3%;
-    padding-right: 28%;
+    padding-right: 15%;
 }
 
 .image {
@@ -236,10 +212,10 @@ footer {
 
 .btn {
     display: block;
-    color: #ede9d0;
-    background-color: #3a001e;
-    border: 1px solid transparent;
-    border-radius: .25em;
+    color: var(--white);
+    background-color: var(--chico);
+    border: 2px solid var(--white);
+    border-radius: .5em;
     width: 150px;
     padding: 10px;
     margin: 20px;
@@ -250,25 +226,27 @@ footer {
 
 
 a:hover {
-    color: #DD5632;
+    color: var(--cardinal);
 }
 
 .btn:hover {
-    color: #3a001e;
-    background-color: #DD5632;
+    color: var(--white);
+    background-color: var(--cardinal);
 }
 
-#vaccines-explanation {
-    padding: 1% 1;
-}
 
 #rna-vaccine,
 #viral-vector-vaccine,
 #inactivated-virus-vaccine {
-    background-color: rgba(58, 0, 30, 0.1);
+    background-color: rgba(192, 196, 197, 0.3);
     padding: 0.5% 2%;
-    margin: 1% 10px;
+    margin: 1% 0;
+    border-radius: 20px;
+}
 
+#vaccines-explanation,
+#efficacy {
+    padding: 0.5% 2%;
 }
 
 #rna-vaccine>p {
@@ -278,7 +256,7 @@ a:hover {
 
 .col-md-6 {
     width: 500px;
-    border-radius: 20%;
+    border-radius: 10%;
     margin: 0.5%;
 }
 
@@ -329,21 +307,21 @@ a:hover {
 
 .prev:hover,
 .next:hover {
-    background-color: rgba(221, 155, 135, 0.8);
+    background-color: var(--white);
 }
 
 .text {
-    color: #3a001e;
-    background-color: rgba(221, 155, 135, 0.4);
+    color: var(--spruce);
+    background-color: rgb(192, 196, 197, 0.4);
     font-size: 20px;
     padding: 8px 12px;
     position: absolute;
     bottom: 25px;
-    
+
 }
 
 .numbertext {
-    color: #3a001e;
+    color: var(--white);
     font-size: 12px;
     padding: 8px 12px;
     position: absolute;
@@ -353,18 +331,17 @@ a:hover {
 
 .dot {
     cursor: pointer;
-    height: 15px;
-    width: 15px;
+    height: 8px;
+    width: 8px;
     margin: 0 2px;
-    background-color: #DD5632;
+    background-color: var(--spruce);
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
 }
 
-.active,
 .dot:hover {
-    background-color: #dd9b87;
+    background-color: var(--chico);
 }
 
 .fade {
@@ -409,16 +386,21 @@ a:hover {
 /* Responsive layout */
 
 @media only screen and (max-width: 1024px) {
+
     #logo {
-        background: url('../images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
-        position: relative;
-        background-size: cover;
+        height: 300px;
     }
 
-    .slideshow-container {
+    */ .slideshow-container {
         max-width: 500px;
-        
+
     }
+
+    iframe {
+        width: 100%;
+        margin: auto;
+    }
+
     /* delete 
     .row {
         width: 90%;
@@ -471,11 +453,12 @@ a:hover {
     li {
         float: none;
         display: inline-block;
-        padding-left: 7%;
+        padding-left: 5%;
     }
 
     #logo {
-        background: url('/images/pexels-cottonbro-3952224\(smallscreen\).jpg') no-repeat center center;
+        background: url('/images/header.jpg') no-repeat center center;
+        height: 200px;
         position: relative;
         background-size: cover;
     }
@@ -488,7 +471,7 @@ a:hover {
         padding: 0;
     }
 
-   
+
 
     /* delete s
     .column-1,
@@ -503,7 +486,16 @@ a:hover {
         margin: 0 auto;
     }
 */
+    iframe {
+        width: 100%;
+        height: auto;
+        margin: 2%;
+    }
 
+    #vaccines-explanation,
+#efficacy {
+    padding: 0;
+}
     #importance {
         width: 90%;
         margin: 0 auto;
