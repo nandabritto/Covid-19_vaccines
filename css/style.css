@@ -98,44 +98,10 @@ iframe {
     margin: 2% 30%;
 }
 
-/* delete
-#what,
-.column-1 {
-    height: auto;
-}
-
-.column-2 {
-    height: 600px;
-    float: right;
-    width: 66%;
-    padding: 1%;
-}
-*/
-
 * {
     box-sizing: border-box;
 }
 
-/* delete
-.column-1 {
-    float: left;
-    width: 33%;
-    padding: 10% 1%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    vertical-align: middle;
-}
-*/
-/* delete 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-*/
 /* footer */
 
 .footer {
@@ -295,7 +261,7 @@ a:hover {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: #DD5632;
+    color: var(--silver);
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -402,54 +368,26 @@ a:hover {
         margin: auto;
     }
 
-    /* delete 
-    .row {
-        width: 90%;
-        margin: 0 auto;
-        padding: 1%;
-    }
-
-    .column-1,
-    .column-2 {
-        width: 100%;
-        padding: 0 1%;
-    }
-*/
-
     #importance {
         width: 90%;
         margin: 0 auto;
     }
 
-    /* delete
-    #left-about- {
-        padding-left: 0%;
-
-    }
-
-
-    #right-about {
-        padding-right: 0;
-    }
-*/
     .btn-responsive {
         font-size: 3vw;
     }
 
-    /* delete
-    .responsive-squeme {
-        float: none !important;
-        width: 95%;
-    }
-*/
-
-    .responsive-squeme {
+      .responsive-squeme {
         width: 70%;
 
     }
 }
 
 @media only screen and (max-width: 600px) {
+
+    #header {
+        font-size: 150%;
+    }
 
     li {
         float: none;
@@ -472,21 +410,6 @@ a:hover {
         padding: 0;
     }
 
-
-
-    /* delete s
-    .column-1,
-    .column-2 {
-        width: 100%;
-
-    }
-
-    #row {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
-*/
     iframe {
         width: 100%;
         height: auto;
@@ -503,13 +426,6 @@ a:hover {
         margin: 0 auto;
     }
 
-    /* delete
-    .right-about-1,
-    .left-about-1 {
-        width: 100%;
-        text-align: center;
-    }
-*/
     .buttons-section {
         display: block !important;
         height: auto;
