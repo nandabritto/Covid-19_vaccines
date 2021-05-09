@@ -128,24 +128,16 @@ iframe {
     clear: both;
 }
 */
-
-
-*/
 /* footer */
 
-footer {
-    background-color: var(--spruce);
-    padding: 10px;
-}
-
 .footer {
-
+    background-color: var(--spruce);
     color: var(--white);
     text-align: center;
-    font-size: small !important;
-    line-height: 2.6px !important;
+    font-size: small;
+    padding: 10px;
+    line-height: 0.3em !important;
 }
-
 /* importance*/
 
 .importance,
@@ -493,9 +485,10 @@ a:hover {
     }
 
     #vaccines-explanation,
-#efficacy {
-    padding: 0;
-}
+    #efficacy {
+        padding: 0;
+    }
+
     #importance {
         width: 90%;
         margin: 0 auto;
