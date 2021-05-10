@@ -11,7 +11,12 @@
 /* header */
 
 #header {
-    color: var(--spruce);
+    background-color:var(--spruce);
+   
+}
+
+.header{
+    color: var(--white);
     padding: 0;
     margin: 0;
     text-align: left;
@@ -21,7 +26,7 @@
 #logo {
     height: 450px;
     width: 100%;
-    background: url("../images/header.jpg") no-repeat center 60%;
+    background: url("images/header.jpg") no-repeat center 60%;
     position: relative;
     background-size: cover;
 }
@@ -150,14 +155,14 @@ iframe {
 }
 
 #earth-image {
-    background: url('/images/earth_covid_syringe2.jpg') no-repeat center;
+    background: url('images/earth_covid_syringe2.jpg') no-repeat center;
     height: 250px;
     background-size: contain;
 
 }
 
 #germs-image {
-    background: url('/images/стоп\ коронавирус\ \ 2.jpg') no-repeat center;
+    background: url('images/стоп\ коронавирус\ \ 2.jpg') no-repeat center;
     background-size: auto;
     height: 200px;
     background-size: contain;
@@ -396,7 +401,7 @@ a:hover {
     }
 
     #logo {
-        background: url('/images/header.jpg') no-repeat center center;
+        background: url('images/header.jpg') no-repeat center center;
         height: 200px;
         position: relative;
         background-size: cover;
