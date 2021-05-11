@@ -8,188 +8,105 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        var slideIndex = 1;
-
-        var myTimer;
-
-        var slideshowContainer;
-
-        window.addEventListener("load", function () {
-            showSlides(slideIndex);
-            myTimer = setInterval(function () {
-                plusSlides(1)
-            }, 4000);
-
-            //COMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-            slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
-
-            //UNCOMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-            // slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
-
-            slideshowContainer.addEventListener('mouseenter', pause)
-            slideshowContainer.addEventListener('mouseleave', resume)
-        })
-
-        // NEXT AND PREVIOUS CONTROL
-        function plusSlides(n) {
-            clearInterval(myTimer);
-            if (n < 0) {
-                showSlides(slideIndex -= 1);
-            } else {
-                showSlides(slideIndex += 1);
-            }
-
-            //COMMENT OUT THE LINES BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-
-            if (n === -1) {
-                myTimer = setInterval(function () {
-                    plusSlides(n + 2)
-                }, 4000);
-            } else {
-                myTimer = setInterval(function () {
-                    plusSlides(n + 1)
-                }, 4000);
-            }
-        }
-
-        //Controls the current slide and resets interval if needed
-        function currentSlide(n) {
-            clearInterval(myTimer);
-            myTimer = setInterval(function () {
-                plusSlides(n + 1)
-            }, 4000);
-            showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {
-                slideIndex = 1
-            }
-            if (n < 1) {
-                slideIndex = slides.length
-            }
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex - 1].style.display = "block";
-            dots[slideIndex - 1].className += " active";
-        }
-
-        pause = () => {
-            clearInterval(myTimer);
-        }
-
-        resume = () => {
-            clearInterval(myTimer);
-            myTimer = setInterval(function () {
-                plusSlides(slideIndex)
-            }, 4000);
-        }
-    </script>
+    <script type="text/javascript" src="javascript/javascript.js"></script>
     <title>Covid-19 Vaccines</title>
 </head>
 
 <body>
     <header>
         <div id="header"><a href="types.html">
-            <h1 class="header">Covid-19 Vaccines</h1>
-        </a></div>
+                <h1 class="header">Covid-19 Vaccines</h1>
+            </a></div>
         <div id="logo"> </div>
     </header>
-        <div class="navbar">
-            <ul>
-                <li><a href="index.html">Importance</a></li>
-                <li><a href="types.html">Types</a>
-                <li><a href="efficacy.html" class="active">Efficacy</a>
-            </ul>
-  
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Importance</a></li>
+            <li><a href="types.html">Types</a>
+            <li><a href="efficacy.html" class="active">Efficacy</a>
+        </ul>
 
-    <section>
-        <h1 class="title">Covid-19 Vaccine's Efficacy</h1>
-        
 
-        <div class="slideshow-container">
+        <section>
+            <h1 class="title">Covid-19 Vaccine's Efficacy</h1>
 
-            <div class="mySlides fade">
-                <div class="numbertext">1 / 8</div>
-                <img class="img-size" src="images/title.png" >
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">2 / 8</div>
-                <img class="img-size" src="images/vaccines2.png">
-            </div>
+            <div class="slideshow-container">
 
-            <div class="mySlides fade">
-                <div class="numbertext">3 / 8</div>
-                <img class="img-size" src="images/astrazeneca.png">
-                <div class="text">Oxford-Astrazeneca</div>
-            </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 8</div>
+                    <img class="img-size" src="images/title.png">
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 8</div>
+                    <img class="img-size" src="images/vaccines2.png">
+                </div>
 
-            <div class="mySlides fade">
-                <div class="numbertext">4 / 8</div>
-                <img class="img-size" src="images/coronavac.png">
-                <div class="text">Coronavac</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">5 / 8</div>
-                <img class="img-size" src="images/pfiser.png">
-                <div class="text">Pfiser-Biontech</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">6 / 8</div>
-                <img class="img-size" src="images/moderna.png">
-                <div class="text">Moderna</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">7 / 8</div>
-                <img class="img-size" src="images/sputinik.png">
-                <div class="text">Sputinik V</div>
-            </div>
-            <div class="mySlides fade">
-                <div class="numbertext">8 / 8</div>
-                <img class="img-size" src="images/jhonson.png">
-                <div class="text">Jhonson & Jhonson</div>
-            </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 8</div>
+                    <img class="img-size" src="images/astrazeneca.png">
+                    <div class="text">Oxford-Astrazeneca</div>
+                </div>
 
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 8</div>
+                    <img class="img-size" src="images/coronavac.png">
+                    <div class="text">Coronavac</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 8</div>
+                    <img class="img-size" src="images/pfiser.png">
+                    <div class="text">Pfiser-Biontech</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 8</div>
+                    <img class="img-size" src="images/moderna.png">
+                    <div class="text">Moderna</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 8</div>
+                    <img class="img-size" src="images/sputinik.png">
+                    <div class="text">Sputinik V</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 8</div>
+                    <img class="img-size" src="images/jhonson.png">
+                    <div class="text">Jhonson & Jhonson</div>
+                </div>
 
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-            <span class="dot" onclick="currentSlide(4)"></span>
-            <span class="dot" onclick="currentSlide(5)"></span>
-            <span class="dot" onclick="currentSlide(6)"></span>
-            <span class="dot" onclick="currentSlide(7)"></span>
-            <span class="dot" onclick="currentSlide(8)"></span>
-        </div>
-    </section>
-    <section id="efficacy">
-       
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div id="dot">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
+            </div>
+        </section>
+
+        <section id="efficacy">
+
             <h2 class="title">How effective are COVID-19 vaccines?</h2>
-        <div class="clearfix" id="comparation">
-           
+            <div id="comparation">
+
                 <p>Johnson & Johnson's vaccine is being developed by its subsidiary Janssen Pharmaceuticals and the
                     single-dose jab was shown to be 66% effective in global trials. Interestingly, that figure
                     was actually higher in its U.S. trials where it reached 72%.</p>
-                    <img src="images/comparation chart.jpeg" class="responsive-squeme col-md-6 float-left " alt="...">
+                <img src="images/comparation-chart.jpeg" class="responsive-squeme col-md-6 float-left " alt="...">
                 <p>
                     The University of Oxford and pharmaceutical giant AstraZeneca vaccine released initial data from
-                    trials in late November, it showed that was 70.4 percent effective, though it can achieve up to 90% protection if a half dose is taken initially, followed by a full dose.
+                    trials in late November, it showed that was 70.4 percent effective, though it can achieve up to 90%
+                    protection if a half dose is taken initially, followed by a full dose.
                     The positive results came after Pfizer and BioNTech reported that their vaccine is 95%
                     effective at preventing Covid-19 while Moderna announced that their jab also has 95%
                     efficacy.</p>
-                    
+
                 <p>
                     The Oxford University/AstraZeneca despite the positive results, there is no data regarding whether
                     the candidates prevent the coronavirus from being transmitted as well as for how long protection
@@ -224,16 +141,15 @@
                 <p class="source">Source:
                     https://www.statista.com/chart/23510/estimated-effectiveness-of-covid-19-vaccine-candidates/</p>
 
-
             </div>
+        </section>
+      
+        <footer>
+            <div>
+                <p class="footer">Fernanda Brito - Copyright 2021</p>
+            </div>
+        </footer>
 
-            
-    </section>
-    <footer>
-        <div>
-            <p class="footer">Fernanda Brito - Copyright 2021</p>
-        </div>
-    </footer>
 </body>
 
 </html>
