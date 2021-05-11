@@ -81,3 +81,86 @@ resume = () => {
         plusSlides(slideIndex)
     }, 4000);
 }
+
+
+
+// web sharing detection
+document.addEventListener('DOMContentLoaded', () => {
+  
+  'use strict';
+  
+  // get page information
+  const 
+    html = document.documentElement,
+    canonical = document.querySelector('link[rel=canonical]'),
+    desc = document.getElementsByName('description'),
+    pageInfo = {
+      url: canonical ? canonical.href : location.href,
+      title: document.title || '',
+      text: desc.length ? desc[0].content : ''
+    };
+  
+   // Web Share API support?
+  if (navigator.share) html.classList.add('webshareapi');
+  
+  // social sharing enabled
+  html.classList.add('social');
+
+  // click event
+  document.body.addEventListener('click', (e) => {
+    
+    // on share button?
+    let t = e.target.closest('A');
+    if (!t || !t.closest('.share')) return;
+    
+    // cancel link
+    e.preventDefault();
+    
+    // Web Share API
+    if (t.hash === '#webshare') {
+      
+      navigator.share(pageInfo);
+      return;
+  
+    }
+    
+    // social media link
+    let popup, newUrl = urlParse(t.href, pageInfo);
+    
+    // open popup
+    if (t.protocol.startsWith('http')) {
+      
+      let
+        sw = screen.availWidth || 1024,
+        sh = screen.availHeight || 700,
+        pw = Math.min(600, (sw - 40)),
+        ph = Math.min(600, (sh - 40)),
+        px = Math.floor((sw - pw) / 2),
+        py = Math.floor((sh - ph) / 2);
+
+      popup = window.open(
+        newUrl,
+        'social',
+        `width=${pw},height=${ph},left=${px},top=${py},\
+        location=0,menubar=0,toolbar=0,personalbar=0,status=0,scrollbars=1,resizable=1`
+      );
+    }
+    
+    if (popup) popup.focus();
+    else location.href = newUrl;
+    
+  });
+  
+  
+  // URL template parser
+  function urlParse(str, token) {
+    
+    for (let t in token) {
+      str = str.replace(new RegExp('\\$\\{' + t + '\\}', 'g'), encodeURIComponent(token[t]));
+    }
+    return str;
+    
+  }
+  
+});
+top.lp.jQuery('button[type=button][role=button]').click() 

@@ -358,6 +358,7 @@ a:hover {
 
 
 
+
 /* Responsive layout */
 
 @media only screen and (max-width: 1024px) {
@@ -388,6 +389,10 @@ a:hover {
     .responsive-squeme {
         width: 70%;
 
+    }
+    #largeImg {
+        margin-top: 20%;
+        width: 80%;
     }
 }
 
