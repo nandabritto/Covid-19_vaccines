@@ -109,7 +109,9 @@ iframe {
 }
 
 /* footer */
-
+footer{
+    
+}
 .footer {
     background-color: var(--spruce);
     color: var(--white);
@@ -118,6 +120,7 @@ iframe {
     padding: 10px;
     line-height: 0.3em !important;
 }
+
 
 /* importance*/
 

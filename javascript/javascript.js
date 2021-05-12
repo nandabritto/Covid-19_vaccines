@@ -162,5 +162,5 @@ document.addEventListener('DOMContentLoaded', () => {
     
   }
   
-});
-top.lp.jQuery('button[type=button][role=button]').click() 
+
+ 
