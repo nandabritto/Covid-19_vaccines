@@ -7,7 +7,6 @@
 }
 
 
-
 /* header */
 
 #header {
@@ -31,7 +30,7 @@
     background-size: cover;
 }
 
-/* new navbar */
+/* navbar */
 
 ul {
     list-style-type: none;
@@ -67,7 +66,7 @@ li a:hover {
     color: var(--white);
 }
 
-/* 1st section */
+/* letters */
 
 h1,
 h2,
@@ -97,6 +96,8 @@ p {
 
 }
 
+/* video */
+
 iframe {
     width: 560px;
     height: 315px;
@@ -124,16 +125,13 @@ iframe {
     height: auto;
     padding: 0 10%;
     clear: both;
-    
 }
 
-.container{
-    width:80%;
+.container {
+    width: 80%;
     margin: 0 10%;
     clear: both;
-    
-    
-   }
+}
 
 .left-about {
     width: 50%;
@@ -152,10 +150,11 @@ iframe {
     padding-right: 15%;
 }
 
+/* delete
 .image {
     border-radius: 50%;
 }
-
+*/
 #earth-image {
     background: url('../images/vaccine-fight.jpg') no-repeat center;
     height: 250px;
@@ -165,19 +164,18 @@ iframe {
 
 #germs-image {
     background: url('../images/germs-stop.png') no-repeat center;
-    background-size: auto;
     height: 200px;
     background-size: contain;
 }
+
 
 #vaccine-production-squeme {
     width: 100%;
     margin: 0 5%;
 }
 
+
 /* types */
-
-
 
 .buttons-section {
     height: 150px;
@@ -199,8 +197,6 @@ iframe {
     text-align: center;
 }
 
-
-
 a:hover {
     color: var(--cardinal);
 }
@@ -210,7 +206,6 @@ a:hover {
     background-color: var(--cardinal);
 }
 
-
 #rna-vaccine,
 #viral-vector-vaccine,
 #inactivated-virus-vaccine {
@@ -219,15 +214,18 @@ a:hover {
     border-radius: 20px;
 }
 
-#vaccines-explanation,
+/*#vaccines-explanation, */
+
 #efficacy {
     padding: 0.5% 2%;
 }
 
+/*
 #rna-vaccine>p {
     font: italic;
     text-align: justify;
 }
+*/
 
 .col-md-6 {
     width: 500px;
@@ -241,14 +239,13 @@ a:hover {
 
 .float-right {
     float: right;
-
 }
-.container-types{
-    width:90%;
+
+.container-types {
+    width: 90%;
     margin: -2% 5% 0 5%;
     overflow: hidden;
 }
-    
 
 /* efficacy */
 
@@ -257,7 +254,6 @@ a:hover {
     position: relative;
     margin: auto;
 }
-
 
 .mySlides {
     display: none;
@@ -298,7 +294,6 @@ a:hover {
     padding: 8px 12px;
     position: absolute;
     bottom: 25px;
-
 }
 
 .numbertext {
@@ -339,10 +334,11 @@ a:hover {
     padding: 0 10px;
 }
 
+/*
 #chart {
     width: 100%;
 }
-
+*/
 @keyframes fade {
     from {
         opacity: .4
@@ -352,9 +348,6 @@ a:hover {
         opacity: 1
     }
 }
-
-
-
 
 /* Responsive layout */
 
@@ -371,19 +364,19 @@ a:hover {
     .left-about,
     .right-earth-text,
     .right-about {
-        padding:0;
+        padding: 0;
     }
 
     iframe {
         width: 100%;
         margin: auto;
-        border:none;                
+        border: none;
     }
 
     .importance {
         width: 90%;
         margin: 0 auto;
-        padding:0;
+        padding: 0;
     }
 
     .btn-responsive {
@@ -394,6 +387,7 @@ a:hover {
         width: 70%;
 
     }
+
     #largeImg {
         margin-top: 20%;
         width: 80%;
@@ -432,14 +426,14 @@ a:hover {
         margin: 2%;
     }
 
-    #efficacy {
+    #efficacy,
+    .importance {
         padding: 0;
     }
 
     .importance {
         width: 90%;
         margin: 0 auto;
-        padding:0;
     }
 
     .buttons-section {
@@ -450,7 +444,6 @@ a:hover {
     .btn {
         font-size: 4vw;
         width: 90%;
-
     }
 
     .text {
@@ -460,9 +453,5 @@ a:hover {
     .responsive-squeme {
         width: 100%;
     }
-}
 
-#vaccine-production-squeme {
-    width: 100%;
-    margin: 0;
 }
