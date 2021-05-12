@@ -135,7 +135,7 @@ iframe {
     
    }
 
-#left-about {
+.left-about {
     width: 50%;
     float: left;
     padding-left: 20%;
@@ -145,7 +145,7 @@ iframe {
     padding-top: 6% !important;
 }
 
-#right-about {
+.right-about {
     width: 50%;
     float: right;
     padding-top: 3%;
@@ -382,15 +382,16 @@ a:hover {
 
     }
 
-    #left-about,
+    .left-about,
     .right-earth-text,
-    #right-about {
+    .right-about {
         padding:0;
     }
 
     iframe {
         width: 100%;
         margin: auto;
+        border:none;                
     }
 
     .importance {
@@ -432,9 +433,9 @@ a:hover {
         background-size: cover;
     }
 
-    #left-about,
+    .left-about,
     .right-earth-text,
-    #right-about {
+    .right-about {
         width: 100%;
         padding: 0;
     }
