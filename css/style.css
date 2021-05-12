@@ -215,7 +215,6 @@ a:hover {
 #viral-vector-vaccine,
 #inactivated-virus-vaccine {
     background-color: rgba(192, 196, 197, 0.3);
-    padding: 0.5% 2%;
     margin: 1% 0;
     border-radius: 20px;
 }
@@ -446,10 +445,6 @@ a:hover {
         margin: 2%;
     }
 
-    #rna-vaccine,
-#viral-vector-vaccine,
-#inactivated-virus-vaccine, 
-    #vaccines-explanation,
     #efficacy {
         padding: 0;
     }
