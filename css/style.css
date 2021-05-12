@@ -131,7 +131,7 @@ iframe {
     width:80%;
     margin: 0 10%;
     clear: both;
-    overflow: hidden;
+    
     
    }
 
@@ -244,6 +244,12 @@ a:hover {
     float: right;
 
 }
+.container-types{
+    width:90%;
+    margin: -2% 5% 0 5%;
+    overflow: hidden;
+}
+    
 
 /* efficacy */
 
@@ -440,6 +446,9 @@ a:hover {
         margin: 2%;
     }
 
+    #rna-vaccine,
+#viral-vector-vaccine,
+#inactivated-virus-vaccine, 
     #vaccines-explanation,
     #efficacy {
         padding: 0;
