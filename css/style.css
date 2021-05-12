@@ -130,10 +130,9 @@ iframe {
 .container{
     width:80%;
     margin: 0 10%;
-}
-.importance-container {
     clear: both;
     overflow: hidden;
+    
    }
 
 #left-about {
@@ -158,14 +157,14 @@ iframe {
 }
 
 #earth-image {
-    background: url('../images/earth_covid_syringe2.jpg') no-repeat center;
+    background: url('../images/vaccine-fight.jpg') no-repeat center;
     height: 250px;
     background-size: contain;
 
 }
 
 #germs-image {
-    background: url('../images/стоп\ коронавирус\ \ 2.jpg') no-repeat center;
+    background: url('../images/germs-stop.png') no-repeat center;
     background-size: auto;
     height: 200px;
     background-size: contain;
@@ -378,6 +377,12 @@ a:hover {
 
     }
 
+    #left-about,
+    .right-earth-text,
+    #right-about {
+        padding:0;
+    }
+
     iframe {
         width: 100%;
         margin: auto;
@@ -386,6 +391,7 @@ a:hover {
     .importance {
         width: 90%;
         margin: 0 auto;
+        padding:0;
     }
 
     .btn-responsive {
@@ -422,7 +428,6 @@ a:hover {
     }
 
     #left-about,
-    #left-about,
     .right-earth-text,
     #right-about {
         width: 100%;
@@ -443,6 +448,7 @@ a:hover {
     .importance {
         width: 90%;
         margin: 0 auto;
+        padding:0;
     }
 
     .buttons-section {
