@@ -93,8 +93,6 @@ p {
   padding-right: 1.5%;
 }
 
-
-
 /* video */
 
 iframe {
@@ -136,7 +134,6 @@ footer {
 .resp-sharing-button__link {
   text-decoration: none;
   color: #fff;
-
 }
 
 .resp-sharing-button {
@@ -158,13 +155,11 @@ footer {
   vertical-align: middle
 }
 
-/* Non solid icons get a stroke */
 .resp-sharing-button__icon {
   stroke: #fff;
   fill: none
 }
 
-/* Solid icons get a fill */
 .resp-sharing-button__icon--solid,
 .resp-sharing-button__icon--solidcircle {
   fill: #fff;
@@ -331,8 +326,6 @@ footer {
   background-color: #4B97D1;
 }
 
-
-
 /* importance*/
 
 #efficacy,
@@ -389,7 +382,6 @@ footer {
   width: 70%;
   margin:auto;
 }
-
 
 /* types */
 
@@ -536,11 +528,6 @@ a:hover {
   padding: 0 10px;
 }
 
-/*
-#chart {
-    width: 100%;
-}
-*/
 @keyframes fade {
   from {
     opacity: .4
@@ -582,12 +569,7 @@ a:hover {
   .btn-responsive {
     font-size: 3vw;
   }
-/*
-  .responsive-squeme {
-    width: 70%;
 
-  }
-*/
 .col-md-6{
   width:70%;
 }
