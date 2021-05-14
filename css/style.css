@@ -19,7 +19,8 @@
   padding: 0;
   margin: 0;
   text-align: left;
-  font-size: 280%;
+  font-size: 180%;
+  
 }
 
 #logo {
@@ -37,18 +38,19 @@ ul,
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: var(--spruce);
+  background-color: rgba(66, 84, 87, 0.8); 
   position: sticky;
   top: 0;
   z-index: 9999;
 }
 
-li {
-  float: left;
+.navbar-white{
+  color: var(--white);
+border-color: var(-silver);
 }
 
-a {
-  font: 16px 'Roboto', sans-serif;
+a, .nav-link{
+  font: 16px 'Roboto', sans-serif ;
   display: block;
   color: var(--white);
   text-align: center;
@@ -56,13 +58,13 @@ a {
   text-decoration: none;
 }
 
-li a:hover {
+.navbar a:hover {
   background-color: var(--chico);
   color: var(--white);
 }
 
 .active {
-  background-color: var(--cardinal);
+  background-color: var();
   color: var(--white);
 }
 
@@ -543,7 +545,7 @@ a:hover {
 @media only screen and (max-width: 1024px) {
 
   .header {
-    font-size: 170%;
+    font-size: 120%;
   }
 
   #logo {
@@ -591,7 +593,7 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
   .header {
-    font-size: 150%;
+    font-size: 110%;
   }
 
   li {
