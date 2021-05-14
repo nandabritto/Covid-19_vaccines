@@ -9,10 +9,6 @@
 
 /* header */
 
-#header {
-  background-color: var(--spruce);
-
-}
 
 .header {
   color: var(--white);
@@ -20,6 +16,7 @@
   margin: 0;
   text-align: left;
   font-size: 180%;
+  opacity:100%;
   
 }
 
@@ -44,9 +41,8 @@ ul,
   z-index: 9999;
 }
 
-.navbar-white{
-  color: var(--white);
-border-color: var(-silver);
+.navbar-nav, h1{
+  background-color: rgba(66, 84, 87, 0);
 }
 
 a, .nav-link{
@@ -56,6 +52,7 @@ a, .nav-link{
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 .navbar a:hover {
@@ -64,22 +61,23 @@ a, .nav-link{
 }
 
 .active {
-  background-color: var();
-  color: var(--white);
+  background-color: var(--cardinal);
+  
 }
 
 /* letters */
 
-h1,
-h2,
-h3 {
+h2, h3{
   color: var(--cardinal);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto' sans-serif!important;
+  font-size: 1.5em !important;
   text-align: center;
+  padding: 2% 0 0% 0;
 }
 
 h3 {
   color: var(--chico);
+
 }
 
 p {
@@ -91,7 +89,7 @@ p {
 .source {
   font-size: xx-small !important;
   text-align: right;
-  line-height: 1em;
+  line-height: 0em!important;
   padding-right: 1.5%;
 }
 
@@ -618,6 +616,9 @@ a:hover {
     height: auto;
     margin: 2%;
   }
+
+  #vaccine-production-squeme {
+    width: 100%;}
 
   #efficacy,
   .importance,
