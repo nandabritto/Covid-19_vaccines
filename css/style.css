@@ -70,13 +70,13 @@ li a:hover {
 
 h1,
 h2,
-h3 {
+h3, h4 {
   color: var(--cardinal);
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
-h3 {
+h4 {
   color: var(--chico);
 }
 
@@ -94,11 +94,15 @@ p {
 }
 
 /* video */
-
-iframe {
+#video {
   width: 560px;
   height: 315px;
-  margin: 0 30%;
+  margin: auto;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
 }
 
 * {
@@ -116,13 +120,12 @@ footer {
   color: var(--white);
   text-align: center;
   font-size: x-small;
-  padding: 10px;
-  line-height: 0.3em !important;
+  margin: 1% 0;
+  padding-bottom: 1%;
 }
 
 .share {
-  width: 300px;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .resp-sharing-button__link,
@@ -380,7 +383,7 @@ footer {
 
 #vaccine-production-squeme {
   width: 70%;
-  margin:auto;
+  margin: auto;
 }
 
 /* types */
@@ -422,9 +425,10 @@ a:hover {
   border-radius: 20px;
 }
 
-.col-md-6 {
+.wrap {
   width: 500px;
   border-radius: 10%;
+  padding: 0 1% 1% 1%;
 }
 
 .float-left {
@@ -560,19 +564,19 @@ a:hover {
     padding: 0;
   }
 
-  iframe {
+  #video {
     width: 100%;
-    margin: auto;
-    border: none;
+
   }
 
   .btn-responsive {
     font-size: 3vw;
   }
 
-.col-md-6{
-  width:70%;
-}
+  .col-md-6 {
+    width: 70%;
+  }
+
   #largeImg {
     margin-top: 20%;
     width: 80%;
@@ -582,14 +586,12 @@ a:hover {
     padding: 0.15em 0.15em;
   }
 
-  .share {
-    width: 165px;
-    margin: auto;
-  }
 }
 
 @media only screen and (max-width: 600px) {
-
+a, p{
+  font-size:13px;
+}
   .header {
     font-size: 150%;
   }
@@ -611,12 +613,27 @@ a:hover {
     padding: 0;
   }
 
-  iframe {
+  #video {
     width: 100%;
     height: auto;
-    margin: 2%;
   }
 
+  iframe {
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  #vaccine-production-squeme{
+    width:100%;
+  }
+  #earth-image{
+    height:150px;
+  }
+
+  #germs-image{
+    height:100px;
+  }
   #efficacy,
   .importance,
   #rna-vaccine,
@@ -644,16 +661,15 @@ a:hover {
     font-size: 3vw;
   }
 
-  .col-md-6{
-    width:100%;
+  .col-md-6 {
+    width: 100%;
   }
 
   .resp-sharing-button {
     padding: 0.15em 0.15em;
   }
-
   .share {
-    width: 165px;
-    margin: auto;
-  }
+    width: 138px;
+ 
 }
+
