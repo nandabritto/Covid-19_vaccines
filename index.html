@@ -16,40 +16,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.js"></script>
     <script src="javascript/javascript.js"></script>
     <title>Covid-19 Vaccines</title>
-
-    <!--bootstrap navbar -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
-  
-    <header>
-        <nav class="navbar navbar-expand-md bg fixed-top navbar-dark">
-        <a class="navbar-brand" href="index.html"></a><h1 class="header">COVID-19 VACCINES</h1></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-            <ul class="navbar-nav ms.auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Importance</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="types.html">Types</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="efficacy.html">Efficacy</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-     <div id="logo">
 
-     </div>
+    <header>
+        <div id="header"><a href="types.html">
+                <h1 class="header">Covid-19 Vaccines</h1>
+            </a></div>
+        <div id="logo"> </div>
+    </header>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html" class="active">Importance</a></li>
+            <li><a href="types.html">Types</a>
+            <li><a href="efficacy.html">Efficacy</a>
+        </ul>
+    </div>
 
     <section class="importance">
         <h2>Why is so important to get vaccinated?</h2>
@@ -166,7 +150,9 @@
 
     <footer>
         <div>
-                       <div class="share">
+            <p class="footer">Fernanda Brito - Copyright 2021</p>
+
+            <div class="share">
                 <!-- Sharingbutton Facebook -->
                 <a class="resp-sharing-button__link"
                     href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnandabritto.github.io%2FMS1%2F"
@@ -252,8 +238,6 @@
                 </a>
             </div>
         </div>
-
-        <p class="footer">Fernanda Brito - Copyright 2021</p>
     </footer>
 
 </body>

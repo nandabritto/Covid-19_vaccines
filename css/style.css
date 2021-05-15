@@ -9,15 +9,17 @@
 
 /* header */
 
+#header {
+  background-color: var(--spruce);
+
+}
 
 .header {
   color: var(--white);
   padding: 0;
   margin: 0;
   text-align: left;
-  font-size: 180%;
-  opacity:100%;
-  
+  font-size: 280%;
 }
 
 #logo {
@@ -35,49 +37,47 @@ ul,
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(66, 84, 87, 0.8); 
+  background-color: var(--spruce);
   position: sticky;
   top: 0;
   z-index: 9999;
 }
 
-.navbar-nav, h1{
-  background-color: rgba(66, 84, 87, 0);
+li {
+  float: left;
 }
 
-a, .nav-link{
-  font: 16px 'Roboto', sans-serif ;
+a {
+  font: 16px 'Roboto', sans-serif;
   display: block;
   color: var(--white);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  
 }
 
-.navbar a:hover {
+li a:hover {
   background-color: var(--chico);
   color: var(--white);
 }
 
 .active {
   background-color: var(--cardinal);
-  
+  color: var(--white);
 }
 
 /* letters */
 
-h2, h3{
+h1,
+h2,
+h3 {
   color: var(--cardinal);
-  font-family: 'Roboto' sans-serif!important;
-  font-size: 1.5em !important;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  padding: 2% 0 0% 0;
 }
 
 h3 {
   color: var(--chico);
-
 }
 
 p {
@@ -89,7 +89,7 @@ p {
 .source {
   font-size: xx-small !important;
   text-align: right;
-  line-height: 0em!important;
+  line-height: 1em;
   padding-right: 1.5%;
 }
 
@@ -543,7 +543,7 @@ a:hover {
 @media only screen and (max-width: 1024px) {
 
   .header {
-    font-size: 120%;
+    font-size: 170%;
   }
 
   #logo {
@@ -591,7 +591,7 @@ a:hover {
 @media only screen and (max-width: 600px) {
 
   .header {
-    font-size: 110%;
+    font-size: 150%;
   }
 
   li {
@@ -616,9 +616,6 @@ a:hover {
     height: auto;
     margin: 2%;
   }
-
-  #vaccine-production-squeme {
-    width: 100%;}
 
   #efficacy,
   .importance,
