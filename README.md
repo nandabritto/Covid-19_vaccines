@@ -28,20 +28,47 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 3.	the content encourage people to get vaccinated against Covid-19 virus.
 4.	the website be easy to navigate.
 
- + Font Selection
+### 1. Strategy 
 
-    I had chosen a universal font to be used across the whole of the website as this made styling easy and had fit in well with the theme of my website. The Font I had chosen was Noto Sans
+ * Project Purpose
+    * To promote information about different types of Covid-19 vaccines;
+    * 	To educate people about the dangers of not getting vaccinated against Covid-19.
+    * 	To inform people in different countries how vaccination could be the only way to the world fight against this pandemic.
+    * 	To inform that faster development of Covid-19 vaccine is not a problem on vaccine’s reliability.
 
-+ Colour Choice
+### 2. Scope
 
-    When considering the colour theme of my project I had to choose a theme that combined colours effortlessly with header image and ensure that there would be no confusion. The Images and text colour had contrasted the theme of the logo and website well, so I had chosen a mix of colours which include; Black, White, Grey and a shade of yellow as seen below.
-    
- ## Wireframes
+ * I wanted a simple, straightforward UX experience.
+ * 	I wanted my content to be clear. 
+
+### 3. Structure
+*	A clear layout is in place to ensure users can immediately find all the information.
+*	The navbar is sticky to facilitate user to navigate through pages easily.	The content is laid out in a way that makes it easy to read and the sections are clearly distinguished.
+*	The Index page displays the most information regarding how vaccines work on human immunity system and how they are developed. It's broken down into small paragraphs making the content easy to read for the user.
+*	The Types page effectively explain the mainly 3 different vaccines mechanism of action.
+*	The Efficacy page shows the efficiency of mainly world used Covid-19 vaccines.
+*	In the Footer users can easily find share buttons to social media and email.
+
+### 4. Skeleton
 
 Wireframes created with Balsamiq. Project was developed from initial wireframes.
 
-Wireframes can be find on the links.
+* Wireframes can be find on the links.
 
+[What](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)|[Importance](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/importance.png) |[Types](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png) |[Efficacy](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/efficacy.png)
+
+### 5. Surface
+* Colors
+
+When considering the colour theme of my project I had to choose a theme that combined colours effortlessly with header image and ensure that there would be no confusion. The Images and text colour had contrasted the theme of the logo and website well.
+
+<img src="https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/color-pallete.png" width="1000">
+
+* Font Selection
+ 
+I had chosen two complementary fonts with [Google Fonts](https://fonts.google.com/) to be used across the whole of the website. The chosen fonts were Roboto (for headers) and Open Sans (for paragraphs).
+
+<img src="https://github.com/nandabritto/MS1/blob/4ec370c76061b67d6a2d4a8ffb46769c255601c0/images/readme_images/Screenshot_2021-05-15%20Google%20Fonts.png">
 
 ## Features 
 
@@ -66,9 +93,8 @@ Is this page I choose to include a video from youtube in order to tranform this 
 
   Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
   Code Validation results:
-  [Importance Page](link) 
-  [Types Page](link)
-  [Efficacy](link)
+  
+  |[Importance Page](link)    |[Types Page](link)    |[Efficacy Page](link)|
   
   21 warnigs were found on validation process. Six in relation root colors and all the rest related related to [sharing buttons](https://sharingbuttons.io/).
   The warnings can be viewed [here](link)
