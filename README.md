@@ -3,6 +3,9 @@
 The intention of this project is explaining people around the world how vaccines works in our body, their importance in World’s Health and the main differences between Covid-19 vaccine’s types. 
 There also a section showing why covid-19 vaccine was rolled out faster than other vaccines in history and why we shall trust on them.  
 
+<img src="https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index.png">
+
+
 The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 
 
@@ -80,18 +83,62 @@ I had chosen two complementary fonts with [Google Fonts](https://fonts.google.co
 ## Features 
 
 + Callout image/logo - Depositphotos photo was used in order to call user attention for the website subject.
+<img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/header.png">
 
-+ Navigation Bar - allows users to easily navigate the site and to visit all the information. - I had inspiration in Bootstrap 4 and W3C to develop a sticky navbar, so user can easily access any part of website anytime.
++ Navigation Bar 
+Allows users to easily navigate the site and to visit all the information.
 
-+ Importance page - divided in four headers, the user can navigate and get informed about how are vaccines help our body fightiing against dieseses, how they are developed and the reason codvid-19 vaccine was produced faster than other vaccines. 
+<img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/navbar%20(2).png">
+
+Navbar has a sticky feature, so user can easily access any part of website anytime.
+
++ Importance page
+
+Divided in four sub-items, the user can navigate and get informed about:
+
+   1. how are vaccines help our body fightiing against diseases;  
+<img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/why.png">
+   2. how they are developed;
+<img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/how-it-works.png">
+
+A youtube video was used to make this abstract scientific content more understandable for all people.
+
+   3. tthe importance of getting vaccinated for world health;
+<img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/importance.png">
+   4. and the reason covid-19 vaccine was produced faster than other vaccines.
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/development%20(2).png">
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/why-so-faster.png">
 
 Is this page I choose to include a video from youtube in order to tranform this abstract subject more concrete for general public. I used a iframe from youtube and the user can watch the video in full screen and have all the controls disponible. 
 
-+ Types page - gives users information about different vaccines mechanism of action. The user can click on the images to enlarge and check it on detail. This feature is disponible in all screen-sizes.  
++ Types page
 
-+ Efficiency - presents users a brief comparation (on slideshow, chart and text) about efficacy of most used Covid-19 vaccines around world.
+In the very beggining of this page, users can find three buttons who lead them to each vaccine type explanation. 
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/buttons-desktop.png">
+All the buttons are responsive and adapt to all size screens. 
+<img src="">
 
-+ Footer - provides users share links to social media and email. 
+Gives users information about different vaccines mechanism of action. 
+
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/mrna-vaccine.png">
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/viral-vector.png">
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/inactivated-virus.png">
+
+All images on this project has click to enlarge feature. The user can check all the details of each image or squeme.This feature is responsive and disponible in all screen-sizes.  
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/enlarge-images.png">
+
++ Efficiency 
+
+Presents users a brief comparation (on slideshow, chart and text) about efficacy of most used Covid-19 vaccines around world. User can chose when click to move forwards or backwards, or just watch while images roll-out on slideshow. 
+
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/slideshow.png">
+
+After the slideshow, a text gives a brief explanation about each vaccine efficacy.
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/efficacy-text.png">
+
++ Footer 
+<img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/footer.png">
+Provides users share links to social media and email. 
 
 ### Code Validation
 
@@ -101,15 +148,23 @@ Is this page I choose to include a video from youtube in order to tranform this 
   Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
   Code Validation results:
   
-  |[Importance Page](link)    |[Types Page](link)    |[Efficacy Page](link)|
+  |[Importance Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index--validation.png)    |[Types Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/types-validation.png)    |[Efficacy Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/efficacy-validation.png)|
   
   21 warnigs were found on validation process. Six in relation root colors and all the rest related related to [sharing buttons](https://sharingbuttons.io/).
-  The warnings can be viewed [here](link)
+  The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/b6c926b2a2aa0bd4dd388be6c7ecb52e9948544c/css-warnings.png)
   
 + CSS
 
 No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).
 Css validation results can be viewed [here](link)
+
+<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+        
+   
 
 #### Manual Testing
 
