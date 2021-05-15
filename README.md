@@ -39,7 +39,14 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 ### 2. Scope
 
  * I wanted a simple, straightforward UX experience.
- * 	I wanted my content to be clear. 
+ * I wanted my content to be clear. 
+ * A site that is visually appealing on all devices.
+ * Information about:
+     *  how vaccines works;
+     *  how vaccine are produced;
+     *  differences between Covid-19 vaccines in use;
+     *  efficacy information about Covid-19 vaccines;
+ * Ways to share vaccines information to avoid fake news.
 
 ### 3. Structure
 *	A clear layout is in place to ensure users can immediately find all the information.
@@ -51,7 +58,7 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 
 ### 4. Skeleton
 
-Wireframes created with Balsamiq. Project was developed from initial wireframes.
+Wireframes created with Balsamiq. Project was developed from initial wireframes and some modifications were made during development process to assure better usability. 
 
 * Wireframes can be find on the links.
 
