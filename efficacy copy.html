@@ -9,11 +9,13 @@
     <meta name="keywords"
         content="Covid-19, Vaccine, Coronavac, Sputinik-V, Pfiser, Jhonson&Jhonson, Moderna, Oxford-Astrazeneca, mRNA vaccine, Viral-Vector-Vaccine, Inactivated Virus Vaccine">
     <meta name="author" content="Fernanda Brito">
-    <title>Covid-19 Vaccines</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.js"></script>
+    <script src="javascript/javascript.js"></script>
+    <title>Covid-19 Vaccines</title>
 </head>
 
 <body>
@@ -28,148 +30,149 @@
     <div class="navbar">
         <ul>
             <li><a href="index.html">Importance</a></li>
-            <li><a href="types.html" class="active">Types</a>
-            <li><a href="efficacy.html">Efficacy</a>
+            <li><a href="types.html">Types</a>
+            <li><a href="efficacy.html" class="active">Efficacy</a>
         </ul>
     </div>
 
-    <div class="buttons-section">
-        <a class="btn" href="#rna-vaccine" role="button">mRNA<br>Vaccine</a>
-        <a class="btn" href="#viral-vector-vaccine" role="button">Viral Vector<br>Vaccine</a>
-        <a class="btn" href="#inactivated-virus-vaccine" role="button">Inactivate<br>Virus Vaccine</a>
-    </div>
+    <section>
+        <h2 class="title">Covid-19 Vaccine's Efficacy</h2>
 
-    <section id="rna-vaccine">
+        <div class="slideshow-container">
 
-        <h2>mRNA Vaccine</h2>
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 8</div>
+                <img class="img-size" src="images/title.png"
+                    alt="vaccine's efficacy title with covid-10 bottle and syringe as background image">
+            </div>
 
-        <div class="container-types">
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 8</div>
+                <img class="img-size" src="images/vaccines2.png"
+                    alt="2 hands with blue gloves and six different types of covid-19 vaccines">
+            </div>
 
-            <a data-lightbox="image-rnavaccine" href="images/Depositphotos_463640370_xl-2015.jpg">
-                <img src="images/Depositphotos_463640370_xl-2015.jpg" class=" wrap float-right"
-                    alt="detailed squeme explaining how mrna vaccine is produced"></a>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 8</div>
+                <img class="img-size" src="images/pfiser.png"
+                    alt="hand with blue gloves holding Pfiser vaccine bottle and its 95 percent efficacy on right top">
+                <div class="text">Pfiser-Biontech</div>
+            </div>
 
-            <p>mRNA vaccines teach your body how to make a protein that will trigger an immune response, without
-                using a
-                live virus. After you get an mRNA vaccine, your body makes antibodies that help fight the
-                infection
-                if a
-                virus enters your body in the future.</p>
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 8</div>
+                <img class="img-size" src="images/moderna.png"
+                    alt="hand with blue gloves holding a syringe sucking liquid vaccine from moderna vaccine bottle and its 94 percent efficacy on left top">
+                <div class="text">Moderna</div>
+            </div>
 
-            <p>The surface of the virus that causes COVID-19 is studded with proteins known as "spike proteins".
-                The
-                virus uses these spikes to enter human cells, infecting you with COVID-19. mRNA COVID-19
-                vaccines
-                contain the
-                instructions for making this spike protein.
-            </p>
-            <p>After you get your vaccine, your immune system recognises that the protein doesn't belong there.
-                Your
-                body then begins building an immune response to fight off what it thinks is an infection. This
-                immune
-                response makes antibodies.
-            </p>
-            <p>The antibodies offer you protection from COVID-19. It is much safer for your immune system to
-                learn
-                how
-                to protect you from COVID-19 through vaccination than by catching the virus.
-            </p>
-            <p>Your cells then break down the instructions for making the spike protein and gets rid of them
-                from
-                your
-                body.
-            </p>
-            <p class="source">
-                Source:https://www2.hse.ie/screening-and-vaccinations/covid-19-vaccine/get-the-vaccine/how-covid-19-vaccines-work/
-            </p>
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 8</div>
+                <img class="img-size" src="images/sputinik.png"
+                    alt="hand with blue gloves holding Sputinik vaccine bottle and its 92 percent efficacy on right top">
+                <div class="text">Sputinik V</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 8</div>
+                <img class="img-size" src="images/astrazeneca.png"
+                    alt="hand with blue gloves holding Oxford-Astrazeneca vaccine bottle and its 76 percent efficacy on right top">
+                <div class="text">Oxford-Astrazeneca</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">7 / 8</div>
+                <img class="img-size" src="images/jhonson.png"
+                    alt="hand with blue gloves holding a syringe sucking liquid vaccine from Jhonson & jhonson vaccine bottle and its 66 percent efficacy on left top">
+                <div class="text">Jhonson & Jhonson</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">8 / 8</div>
+                <img class="img-size" src="images/coronavac.png"
+                    alt="hand with blue gloves holding a syringe sucking liquid vaccine from coronavac vaccine bottle and its 50 percent efficacy on left top">
+                <div class="text">Coronavac</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br>
+
+        <div id="dot">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
         </div>
 
     </section>
 
-    <section id="viral-vector-vaccine">
+    <section id="efficacy">
 
-        <h2>Viral Vector Vaccine</h2>
+        <h2 class="title">How effective are COVID-19 vaccines?</h2>
 
-        <div class="container-types">
-
-            <a data-lightbox="image-viral-vector-vaccine" href="images/Depositphotos_463640224_xl-2015.jpg">
-                <img src="images/Depositphotos_463640224_xl-2015.jpg" class=" wrap float-left"
-                    alt="detailed squeme explaining how viral vector vaccine is produced"></a>
-
+        <div id="comparation">
+            <p>Johnson & Johnson's vaccine is being developed by its subsidiary Janssen Pharmaceuticals and the
+                single-dose jab was shown to be 66% effective in global trials. Interestingly, that figure
+                was actually higher in its U.S. trials where it reached 72%.</p>
             <p>
-                Viral vector vaccines are like messengers. They use a weakened version of a different virus (the
-                vector)
-                to deliver instructions to cells in your body.</p>
-            <p> COVID-19 vaccines use the adenovirus as the vector.
-                Adenovirus is the virus that causes the common cold.
-            </p>
+                The University of Oxford and pharmaceutical giant AstraZeneca vaccine released initial data from
+                trials in late November, it showed that was 70.4 percent effective, though it can achieve up to 90%
+                protection if a half dose is taken initially, followed by a full dose.
+                The positive results came after Pfizer and BioNTech reported that their vaccine is 95%
+                effective at preventing Covid-19 while Moderna announced that their jab also has 95%
+                efficacy.</p>
+                
+            <a data-lightbox="image-1" href="images/comparation-chart.jpeg">
+                <img class="wrap float-left " src="images/comparation-chart.jpeg"
+                    alt="Comparation chart about covid-19 different vaccines"></a>
+
+            <p> The Oxford University and AstraZeneca despite the positive results, there is no data regarding whether
+                the candidates prevent the coronavirus from being transmitted as well as for how long protection
+                lasts.</p>
             <p>
-                The surface of the virus that causes COVID-19 is studded with proteins known as "spike
-                proteins".
-                The virus uses these spikes to enter human cells, infecting you with COVID-19.
-            </p>
-
-            <p>When you get a viral vector vaccine, the vector (adenovirus) enters a cell in your body. It then
-                teaches the cell how to produce the COVID-19 spike protein.
-
-                After you get your vaccine, your immune system recognises that the protein doesn't belong there.
-                Your body then begins building an immune response to fight off what it thinks is an infection.
-                This
-                immune response makes antibodies. </p>
-
-            <p>The antibodies offer you protection from COVID-19. It is much safer for your immune system to
-                learn
-                how to protect you from COVID-19 through vaccination than by catching the virus.
-            </p>
-
-            <p class="source">
-                https://www2.hse.ie/screening-and-vaccinations/covid-19-vaccine/get-the-vaccine/how-covid-19-vaccines-work/
-            </p>
-        </div>
-
-    </section>
-
-    <section id="inactivated-virus-vaccine">
-
-        <h2>Inactivated Virus Vaccine</h2>
-
-        <div class="container-types">
-
-            <a data-lightbox="image-inactivate-vaccine" href="images/Depositphotos_463640224_xl-2015.jpg">
-                <img src="images/Depositphotos_463640224_xl-2015.jpg" class=" wrap float-right"
-                    alt="detailed squeme explaining how inactivated virus vaccine is produced"></a>
-
-            <p>Vaccines that make use of the entire pathogenic virus are called whole virus vaccines.</p>
-
-            <p>Using a pathogen or a part of a pathogen in a vaccine is a traditional approach, and most
-                vaccines
-                available today work this way.
-                There are two different types of whole virus vaccines: live attenuated and inactivated.</p>
-            <p>Live attenuated vaccines use a weakened form of a pathogen. These elicit strong immune responses
-                but
-                are not suitable for people with a weakened immune system.
-                In an inactivated vaccine, the pathogen is killed or modified in such a way that it is unable to
-                replicate. It cannot cause disease and is, therefore, suitable for those with a compromised
-                immune
-                system.
-            </p>
-            <p>The inactivation step usually involves heat, radiation, or chemicals to destroy the pathogen’s
-                genetic material, which stops it from replicating.
-                Inactivated vaccines can trigger a strong immune reaction, but it is usually not as strong as
-                the
-                reaction that live attenuated vaccines can produce. Due to this, a person may need booster shots
-                to
-                ensure ongoing protection.
+                Even though it has a lower efficacy from a single dose, the AstraZeneca vaccine has been
+                shown to work effectively in different age groups, though Germany has prohibited it for over 65s,
+                citing a lack of data.</p>
+            <p>
+                It is also significantly cheaper than other Covid-19 vaccines and much easier to store, meaning it
+                can be distributed more easily, potentially making it the shot of choice in poorer parts of the
+                world.</p>
+            <p>
+                Its ease of storage characteristics are shared with Johnson & Johnson's shot which can last months
+                in a regular refrigerator while its single dose provides it with a further advantage over the
+                competition. </p>
+            <p>
+                The Moderna vaccine can be stored at temperatures of between 2oC and 8oC for 30 days while the
+                Pfizer/BioNTech vaccine, on the other hand, must be stored at -80oC, exacerbating logistical
+                challenges.</p>
+            <p>
+                It is also important to mention the efforts of other countries, particularly Russia and its Sputnik
+                V, which is being developed by the Gamaleya Research Institute of Epidemiology and Microbiology.
+                The Russian Health Ministry announced that Sputnik V is 92% effective, though that figure was
+                controversial as it was approved for distribution despite being tested in a small group of people.
+                According to late stage trial data published in The Lancet involving some 20,000 people, Sputnik V
+                is completely safe and is one of the world's most capable Covid-19 vaccines with an efficacy of 91.6
+                percent, closely matching those controversial initial estimates.</p>
+            <p>
+                Elsewhere, China's Sinovac Biotech vaccine Coronavac has shown efficacy of 50% in Brazilian trials.
             </p>
             <p class="source">Source:
-                https://www.medicalnewstoday.com/articles/covid-19-how-do-inactivated-vaccines-work      </p>
+                https://www.statista.com/chart/23510/estimated-effectiveness-of-covid-19-vaccine-candidates/</p>
         </div>
 
     </section>
+
     <footer>
         <div>
-           
-            <div class="share center">
+
+            <div class="share">
                 <!-- Sharingbutton Facebook -->
                 <a class="resp-sharing-button__link"
                     href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fnandabritto.github.io%2FMS1%2F"
@@ -179,7 +182,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z" />
-                                </svg>
+                            </svg>
                         </div>
                     </div>
                 </a>
@@ -193,7 +196,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z" />
-                                </svg>
+                            </svg>
                         </div>
                     </div>
                 </a>
@@ -207,7 +210,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M22 4H2C.9 4 0 4.9 0 6v12c0 1.1.9 2 2 2h20c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zM7.25 14.43l-3.5 2c-.08.05-.17.07-.25.07-.17 0-.34-.1-.43-.25-.14-.24-.06-.55.18-.68l3.5-2c.24-.14.55-.06.68.18.14.24.06.55-.18.68zm4.75.07c-.1 0-.2-.03-.27-.08l-8.5-5.5c-.23-.15-.3-.46-.15-.7.15-.22.46-.3.7-.14L12 13.4l8.23-5.32c.23-.15.54-.08.7.15.14.23.07.54-.16.7l-8.5 5.5c-.08.04-.17.07-.27.07zm8.93 1.75c-.1.16-.26.25-.43.25-.08 0-.17-.02-.25-.07l-3.5-2c-.24-.13-.32-.44-.18-.68s.44-.32.68-.18l3.5 2c.24.13.32.44.18.68z" />
-                                </svg>
+                            </svg>
                         </div>
                     </div>
                 </a>
@@ -221,7 +224,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M6.5 21.5h-5v-13h5v13zM4 6.5C2.5 6.5 1.5 5.3 1.5 4s1-2.4 2.5-2.4c1.6 0 2.5 1 2.6 2.5 0 1.4-1 2.5-2.6 2.5zm11.5 6c-1 0-2 1-2 2v7h-5v-13h5V10s1.6-1.5 4-1.5c3 0 5 2.2 5 6.3v6.7h-5v-7c0-1-1-2-2-2z" />
-                                </svg>
+                            </svg>
                         </div>
                     </div>
                 </a>
@@ -235,7 +238,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M20.1 3.9C17.9 1.7 15 .5 12 .5 5.8.5.7 5.6.7 11.9c0 2 .5 3.9 1.5 5.6L.6 23.4l6-1.6c1.6.9 3.5 1.3 5.4 1.3 6.3 0 11.4-5.1 11.4-11.4-.1-2.8-1.2-5.7-3.3-7.8zM12 21.4c-1.7 0-3.3-.5-4.8-1.3l-.4-.2-3.5 1 1-3.4L4 17c-1-1.5-1.4-3.2-1.4-5.1 0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8 1.8 1.8 2.8 4.2 2.8 6.7-.1 5.2-4.3 9.4-9.5 9.4zm5.1-7.1c-.3-.1-1.7-.9-1.9-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1s-1.2-.5-2.3-1.4c-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6s.3-.3.4-.5c.2-.1.3-.3.4-.5.1-.2 0-.4 0-.5C10 9 9.3 7.6 9 7c-.1-.4-.4-.3-.5-.3h-.6s-.4.1-.7.3c-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.3-.3-.4-.6-.5z" />
-                                </svg>
+                            </svg>
                         </div>
                     </div>
                 </a>
@@ -249,7 +252,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                 <path
                                     d="M.707 8.475C.275 8.64 0 9.508 0 9.508s.284.867.718 1.03l5.09 1.897 1.986 6.38a1.102 1.102 0 0 0 1.75.527l2.96-2.41a.405.405 0 0 1 .494-.013l5.34 3.87a1.1 1.1 0 0 0 1.046.135 1.1 1.1 0 0 0 .682-.803l3.91-18.795A1.102 1.102 0 0 0 22.5.075L.706 8.475z" />
-                                </svg>
+                            </svg>
                         </div>
                     </div>
                 </a>
@@ -258,9 +261,6 @@
         <p class="footer">Fernanda Brito - Copyright 2021</p>
 
     </footer>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.js"></script>
-    <script src="javascript/javascript.js"></script>
 </body>
 
 </html>

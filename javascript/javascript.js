@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
     slideshowContainer = document.getElementsByClassName('slideshow-inner')[0];
 
     //UNCOMMENT OUT THE LINE BELOW TO KEEP ARROWS PART OF MOUSEENTER PAUSE/RESUME
-    // slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
+     slideshowContainer = document.getElementsByClassName('slideshow-container')[0];
 
     slideshowContainer.addEventListener('mouseenter', pause)
     slideshowContainer.addEventListener('mouseleave', resume)
