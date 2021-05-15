@@ -8,6 +8,9 @@
 
 
 /* header */
+ .center{
+   text-align:center;
+ }
 
 #header {
   background-color: var(--spruce);
@@ -83,7 +86,7 @@ h4 {
 p {
   color: var(--spruce);
   font: 16px 'Open Sans', sans-serif;
-  text-align: center;
+  text-align: justify;
 }
 
 .source {
@@ -573,7 +576,7 @@ a:hover {
     font-size: 3vw;
   }
 
-  .col-md-6 {
+  .wrap {
     width: 70%;
   }
 
@@ -661,15 +664,16 @@ a, p{
     font-size: 3vw;
   }
 
-  .col-md-6 {
+  .wrap {
     width: 100%;
   }
-
+  .float-left, .float-right{
+    float:none;
+  }
   .resp-sharing-button {
     padding: 0.15em 0.15em;
   }
-  .share {
-    width: 138px;
+  
  
 }
 
