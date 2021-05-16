@@ -1,7 +1,7 @@
 # Covid-19 vaccines
 
-The intention of this project is explaining people around the world how vaccines works in our body, their importance in World’s Health and the main differences between Covid-19 vaccine’s types. 
-There also a section showing why covid-19 vaccine was rolled out faster than other vaccines in history and why we shall trust on them.  
+The intention of this project is explaining people around the world how vaccines work in our body, their importance in World’s Health and the main differences between the Covid-19 vaccine’s types. 
+There are also a section showing why the covid-19 vaccine was rolled out faster than other vaccines in history and why we shall trust them.  
 
 <img src="https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index.png">
 
@@ -13,22 +13,22 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 
 ### User Stories
 
-+ As a user I want to…
++ As a user, I want to…
 
 1.	be able to navigate the site easily.
 2.	be able to understand why is important to get vaccinated.
-3.	be able to understand how vaccines works on my body.
-4.	be able to understand how vaccine are developed.
-5.	understand how Covid-19 vaccine was developed faster than other vaccines before.
-6.	be able to understand Covid-19 vaccine’s mechanism of action.
-7.	be aware about efficacy of most used Covid-19 vaccines around world.
+3.	be able to understand how vaccines work on my body.
+4.	be able to understand how vaccine is developed.
+5.	understand how the Covid-19 vaccine was developed faster than other vaccines before.
+6.	be able to understand the Covid-19 vaccine’s mechanism of action.
+7.	be aware of the efficacy of the most used Covid-19 vaccines around world.
 8.	be able to share this information by email and social networks.
 
-+ As a site owner I want…
++ As a site owner, I want…
 
 1.	the information to be clear and informative.
-2.	the information could help preventing fake news about Covid-19 vaccines.
-3.	the content encourage people to get vaccinated against Covid-19 virus.
+2.	the information could help to prevent fake news about Covid-19 vaccines.
+3.	the content encourages people to get vaccinated against the Covid-19 virus.
 4.	the website be easy to navigate.
 
 ### 1. Strategy 
@@ -46,7 +46,7 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
  * A site that is visually appealing on all devices.
  * Information about:
      *  how vaccines works;
-     *  how vaccine are produced;
+     *  how the vaccine is produced;
      *  differences between Covid-19 vaccines in use;
      *  efficacy information about Covid-19 vaccines;
  * Ways to share vaccines information to avoid fake news.
@@ -54,23 +54,23 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 ### 3. Structure
 *	A clear layout is in place to ensure users can immediately find all the information.
 *	The navbar is sticky to facilitate user to navigate through pages easily.	The content is laid out in a way that makes it easy to read and the sections are clearly distinguished.
-*	The Index page displays the most information regarding how vaccines work on human immunity system and how they are developed. It's broken down into small paragraphs making the content easy to read for the user.
+*	The Index page displays the most information regarding how vaccines work on the human immune system and how they are developed. It's broken down into small paragraphs making the content easy to read for the user.
 *	The Types page effectively explain the mainly 3 different vaccines mechanism of action.
-*	The Efficacy page shows the efficiency of mainly world used Covid-19 vaccines.
-*	In the Footer users can easily find share buttons to social media and email.
+*	The Efficacy page shows the efficiency of main world used Covid-19 vaccines.
+*	In the Footer, users can easily find share buttons to social media and email.
 
 ### 4. Skeleton
 
-Wireframes created with Balsamiq. Project was developed from initial wireframes and some modifications were made during development process to assure better usability. 
+Wireframes created with Balsamiq. The project was developed from initial wireframes and some modifications were made during the development process to assure better usability. 
 
-* Wireframes can be find on the links.
+* Wireframes can be fond on the links.
 
 [What](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)|[Importance](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/importance.png) |[Types](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png) |[Efficacy](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/efficacy.png)
 
 ### 5. Surface
-* Colors
+* Colours
 
-When considering the colour theme of my project I had to choose a theme that combined colours effortlessly with header image and ensure that there would be no confusion. The Images and text colour had contrasted the theme of the logo and website well.
+When considering the colour theme of my project I had to choose a theme that combined colours effortlessly with the header image and ensure that there would be no confusion. The Images and text colour had contrasted the theme of the logo and website well.
 
 <img src="https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/color-pallete.png" width="1000">
 
@@ -82,7 +82,7 @@ I had chosen two complementary fonts with [Google Fonts](https://fonts.google.co
 
 ## Features 
 
-+ Callout image/logo - Depositphotos photo was used in order to call user attention for the website subject.
++ Callout image/logo - Depositphotos photo was used to call user attention to the website subject.
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/header.png">
 
 + Navigation Bar 
@@ -90,30 +90,36 @@ Allows users to easily navigate the site and to visit all the information.
 
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/navbar%20(2).png">
 
-Navbar has a sticky feature, so user can easily access any part of website anytime.
+The navbar has a sticky feature, so user can easily access any part of the website anytime.
 
 + Importance page
 
-Divided in four sub-items, the user can navigate and get informed about:
+Divided into four sub-items, the user can navigate and get informed about:
 
-   1. how are vaccines help our body fightiing against diseases;  
-<img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/why.png">
-   2. how they are developed;
+   1. How are vaccines help our body fighting against diseases;  
+   
+   <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/why.png">
+   
+   2. How they are developed;
+     
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/how-it-works.png">
 
 A youtube video was used to make this abstract scientific content more understandable for all people.
 
-   3. tthe importance of getting vaccinated for world health;
+   3. The importance of getting vaccinated for world health;
+   
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/importance.png">
+
    4. and the reason covid-19 vaccine was produced faster than other vaccines.
+   
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/development%20(2).png">
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/why-so-faster.png">
 
-Is this page I choose to include a video from youtube in order to tranform this abstract subject more concrete for general public. I used a iframe from youtube and the user can watch the video in full screen and have all the controls disponible. 
+Is this page I choose to include a video from youtube to transform this abstract subject more concrete for the general public. I used an iframe from youtube and the user can watch the video on full screen and have all the controls available. 
 
 + Types page
 
-In the very beggining of this page, users can find three buttons who lead them to each vaccine type explanation. 
+At the very beginning of this page, users can find three buttons to lead them to each vaccine type explanation. 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/buttons-desktop.png">
 All the buttons are responsive and adapt to all size screens. 
 <img src="">
@@ -124,12 +130,12 @@ Gives users information about different vaccines mechanism of action.
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/viral-vector.png">
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/inactivated-virus.png">
 
-All images on this project has click to enlarge feature. The user can check all the details of each image or squeme.This feature is responsive and disponible in all screen-sizes.  
+All images on this project have a click to enlarge feature. The user can check all the details of each image or scheme.This feature is responsive and availabe in all screen sizes.  
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/enlarge-images.png">
 
 + Efficiency 
 
-Presents users a brief comparation (on slideshow, chart and text) about efficacy of most used Covid-19 vaccines around world. User can chose when click to move forwards or backwards, or just watch while images roll-out on slideshow. 
+Presents users a brief comparison (on slideshow, chart and text) about the efficacy of most used Covid-19 vaccines around the world. User can choose when to click to move forwards or backwards, or just watch while images rollout on slideshow. 
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/slideshow.png">
 
@@ -150,13 +156,14 @@ Provides users share links to social media and email.
   
   |[Importance Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index--validation.png)    |[Types Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/types-validation.png)    |[Efficacy Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/efficacy-validation.png)|
   
-  21 warnigs were found on validation process. Six in relation root colors and all the rest related related to [sharing buttons](https://sharingbuttons.io/).
-  The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/b6c926b2a2aa0bd4dd388be6c7ecb52e9948544c/css-warnings.png)
   
 + CSS
 
-No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).
-Css validation results can be viewed [here](link)
+No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).CSS validation results can be viewed [here](link)
+
+6 warnings were found on the validation process. Custom properties were used to ensure that the DRY principle was upheld and all warnings concerns the root colours code. 
+  
+ The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/b6c926b2a2aa0bd4dd388be6c7ecb52e9948544c/css-warnings.png)
 
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -170,13 +177,13 @@ Css validation results can be viewed [here](link)
 
  + Desktop
 
- Mozilla Firefox, Google Chrome, Microsoft Edge: everything is working good. Page loads, and all of the page features are working.
+ Mozilla Firefox, Google Chrome, Microsoft Edge: everything is working good. Page loads and all of the page features are working.
 
  + Mobile
 
  - Mozilla Dev Tools
  
- Tested  for all available devices, webpage works well. It is responsive as intended, no page deformations.
+ Tested  for all available devices, webpage works well. It is responsive as intended, with no page deformations.
 
   ## Deployment
 
@@ -227,21 +234,29 @@ All content was written using sources as:
 
 ### Media
 - All pictures and images used in this project are from [depositphotos](https://depositphotos.com/) and [freepik](https://www.freepik.com/home).
-- All the data added to images on Efficacy slideshow were made by me using [Canva](https://www.canva.com/).
+- All the data added to images on the Efficacy slideshow were made by me using [Canva](https://www.canva.com/).
 
-Pictures were treated with [image optimizer](http://www.imageoptimizer.net/Pages/Home.aspx) and [tiny png](https://tinypng.com/) in order to have a better size to get online.
+Pictures were treated with [image optimizer](http://www.imageoptimizer.net/Pages/Home.aspx) and [tiny png](https://tinypng.com/) to have a better size to get online.
 
+#### Worked based in other code
+
++ [Sharing buttons](https://sharingbuttons.io/) – Used to develop share buttons on footer and custoomized as needed. 
++ [W3 Schools](https://www.w3schools.com/howto/howto_js_slideshow.asp) - Used to create slideshow of this project and customized as needed.
++ [Free Logo Design](https://www.freelogodesign.org/manager/showcase/2371553ca37c44b2880ac8e41935844d) – Used to develop logo used on favicon.
++ [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
+
++ 
 ### Acknowledgements
 
 -	To the Code Institute course material, as the basis of all my knowledge is from here.
 -	To the Slack community as I have used the different channels to find answers to problems!
-- Stack Overflow as a valuable resource for solving a couple of issues.
-- [W3schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for general reference.
-- [Bootstrap](https://getbootstrap.com/) for documentation for different features.
+-  Stack Overflow as a valuable resource for solving a couple of issues.
+-  [W3schools](https://www.w3schools.com/) and [Stack Overflow](https://stackoverflow.com/) for general reference.
 
 I would also like to thank:
 
 -	My mentor Rahul Lakhanpal for his time, support and guidance.
+-	Code institute tutors, for help with some issues.
 -	My husband Guilherme for all the support and help in some issues and for reviewing everything. 
 
 
