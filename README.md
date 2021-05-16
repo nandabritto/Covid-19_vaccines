@@ -65,7 +65,7 @@ Wireframes created with Balsamiq. The project was developed from initial wirefra
 
 Click on the below page names to see these wireframes:
 
-[What](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)|
+[What](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)
 
 [Importance](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/importance.png) 
 
@@ -89,19 +89,22 @@ Two complimentary fonts were chosen with [Google Fonts](https://fonts.google.com
 
 ## Existing Features 
 
-+ Callout image/logo - Depositphotos photo was used to call user attention to the website subject.
++ The landing page image
+
+Covid-19 vaccine bottles were used to catch user attention to the website subject.
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/header.png">
 
 + Navigation Bar 
-Allows users to easily navigate the site and to visit all the information.
+
+ Featured on all three pages, the full responsive navigation bar includes links to the Importance, Types and Efficacy page and is identical in each page to allow for easy navigation. The navbar has a sticky feature, so user can easily access any part of the website anytime.
+This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/navbar%20(2).png">
 
-The navbar has a sticky feature, so user can easily access any part of the website anytime.
-
 + Importance page
 
-Divided into four sub-items, the user can navigate and get informed about:
+This section is divided into four sub-items and will be updated as new vaccines roll out. 
+The user can navigate and get fully informed about:
 
    1. How are vaccines help our body fighting against diseases;  
    
@@ -139,6 +142,7 @@ Gives users information about different vaccines mechanism of action.
 
 All images on this project have a click to enlarge feature. The user can check all the details of each image or scheme.This feature is responsive and availabe in all screen sizes.  
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/enlarge-images.png">
+
 
 + Efficiency 
 
