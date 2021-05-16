@@ -104,7 +104,7 @@ Divided into four sub-items, the user can navigate and get informed about:
      
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/how-it-works.png">
 
-A youtube video was used to make this abstract scientific content more understandable for all people.
+A youtube video was used to make this abstract scientific content more understandable for all people. The user can watch the video on full screen and have all the controls available. 
 
    3. The importance of getting vaccinated for world health;
    
@@ -114,8 +114,6 @@ A youtube video was used to make this abstract scientific content more understan
    
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/development%20(2).png">
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/why-so-faster.png">
-
-Is this page I choose to include a video from youtube to transform this abstract subject more concrete for the general public. I used an iframe from youtube and the user can watch the video on full screen and have all the controls available. 
 
 + Types page
 
