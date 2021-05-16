@@ -59,7 +59,7 @@ p {
   background-size: cover;
 }
 
-/* navbar */
+/* navbar developed by inpiration on W3schools code*/
 
 ul,
 .navbar {
@@ -353,6 +353,8 @@ footer {
   margin: 1% 0;
   padding-bottom: 1%;
 }
+
+/* Sharing buttons code by sharingbuttons.io*/
 
 .share {
   text-align: center;
