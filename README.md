@@ -180,7 +180,9 @@ Besides that, new vaccines will be added that have been approved and used worldw
     
 + CSS
 
-No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).CSS validation results can be viewed [here](link)
+No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
+
+CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/blob/938d1222ff97b2a1d897f3094a1331c38d66a1a4/images/readme_images/css%20validation.png)
 
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
@@ -190,7 +192,7 @@ No errors were found when passing through the official [W3C validator](https://j
 
 6 warnings were found on the validation process. Custom properties were used to ensure that the DRY principle was upheld and all warnings concerns the root colours code. 
   
-   The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/b6c926b2a2aa0bd4dd388be6c7ecb52e9948544c/css-warnings.png)
+   The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/cfe90d504b1dafadba535c97ecf014cb437bf4e4/images/readme_images/css-warnings.png)
      
 #### Manual Testing
 
