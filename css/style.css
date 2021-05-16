@@ -233,6 +233,8 @@ a:hover {
 
 /* efficacy */
 
+/*CDJNS slideshow */
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -255,7 +257,7 @@ a:hover {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: var(--silver);
+  color: var(--spruce);
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
@@ -268,7 +270,7 @@ a:hover {
 
 .prev:hover,
 .next:hover {
-  background-color: var(--white);
+  background-color: var(--silver);
 }
 
 .text {
@@ -312,6 +314,7 @@ a:hover {
   animation-name: fade;
   animation-duration: 1.5s;
 }
+/*end of CDNJS slideshow code */
 
 #comparation {
   width: 100%;
