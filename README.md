@@ -63,9 +63,15 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 
 Wireframes created with Balsamiq. The project was developed from initial wireframes and some modifications were made during the development process to assure better usability. 
 
-* Wireframes can be fond on the links.
+Click on the below page names to see these wireframes:
 
-[What](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)|[Importance](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/importance.png) |[Types](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png) |[Efficacy](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/efficacy.png)
+[What](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)|
+
+[Importance](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/importance.png) 
+
+[Types](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)
+
+[Efficacy](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/efficacy.png)
 
 ### 5. Surface
 
@@ -81,7 +87,7 @@ Two complimentary fonts were chosen with [Google Fonts](https://fonts.google.com
 
 <img src="https://github.com/nandabritto/MS1/blob/4ec370c76061b67d6a2d4a8ffb46769c255601c0/images/readme_images/Screenshot_2021-05-15%20Google%20Fonts.png">
 
-## Features 
+## Existing Features 
 
 + Callout image/logo - Depositphotos photo was used to call user attention to the website subject.
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/header.png">
@@ -147,33 +153,36 @@ After the slideshow, a text gives a brief explanation about each vaccine efficac
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/footer.png">
 Provides users share links to social media and email. 
 
+## Future Features 
+
+I would like to add a hamburger navbar for smaller devices, this will make the project more responsive. 
+Besides that, I would like to add new vaccines that have been approved and used worldwide, this will make the information about Covid-19 vaccine relevant to people anywhere. 
+
 ### Code Validation
 
 #### Automated tests
+
 + HTML
 
   Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
   Code Validation results:
   
-  |[Importance Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index--validation.png)    |[Types Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/types-validation.png)    |[Efficacy Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/efficacy-validation.png)|
-  
-  
+  |[Importance Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index--validation.png)     |[Types Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/types-validation.png)    |[Efficacy Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/efficacy-validation.png)|
+    
 + CSS
 
 No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/).CSS validation results can be viewed [here](link)
-
-6 warnings were found on the validation process. Custom properties were used to ensure that the DRY principle was upheld and all warnings concerns the root colours code. 
-  
- The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/b6c926b2a2aa0bd4dd388be6c7ecb52e9948544c/css-warnings.png)
 
 <a href="http://jigsaw.w3.org/css-validator/check/referer">
         <img style="border:0;width:88px;height:31px"
             src="http://jigsaw.w3.org/css-validator/images/vcss"
             alt="Valid CSS!" />
     </a>
-        
-   
 
+6 warnings were found on the validation process. Custom properties were used to ensure that the DRY principle was upheld and all warnings concerns the root colours code. 
+  
+   The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/b6c926b2a2aa0bd4dd388be6c7ecb52e9948544c/css-warnings.png)
+     
 #### Manual Testing
 
  + Desktop
@@ -185,6 +194,7 @@ No errors were found when passing through the official [W3C validator](https://j
  - Mozilla Dev Tools
  
  Tested  for all available devices, webpage works well. It is responsive as intended, with no page deformations.
+ 
  ## Project Bugs and Solutions:
 
 When viewed on the AmIResponsive website, I noticed that navbar was split into two lines on smaller devices (iPhone 5).
@@ -241,8 +251,10 @@ All content was written using sources as:
 - [Statista](https://www.statista.com/chart/23510/estimated-effectiveness-of-covid-19-vaccine-candidates/)
 
 ### Media
+
 - All pictures and images used in this project are from [depositphotos](https://depositphotos.com/) and [freepik](https://www.freepik.com/home).
 - All the data added to images on the Efficacy slideshow were made by me using [Canva](https://www.canva.com/).
+- [Youtube](https://www.youtube.com/watch?v=-muIoWofsCE&feature=emb_logo) video was used on importance page.
 
 Pictures were treated with [image optimizer](http://www.imageoptimizer.net/Pages/Home.aspx) and [tiny png](https://tinypng.com/) to have a better size to get online.
 
