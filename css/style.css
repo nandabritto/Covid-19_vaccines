@@ -92,7 +92,6 @@ h4 {
 p {
   color: var(--spruce);
   font: 16px 'Open Sans', sans-serif;
-  text-align: justify;
 }
 
 .source {
