@@ -222,11 +222,11 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
    
 The alerts for each page can be viewed on the links:
 
-[Importance](https://github.com/nandabritto/MS1/blob/a8cca63a6167e490b614a4619846f690e302f614/images/readme_images/accessibility-index.png)
+[Importance](https://github.com/nandabritto/MS1/blob/9f4e9090d84678ac6e0544cf40822b458edde267/images/readme_images/alerts-importance.png)
 
-[Types](https://github.com/nandabritto/MS1/blob/a8cca63a6167e490b614a4619846f690e302f614/images/readme_images/accessibility-types.png)
+[Types](https://github.com/nandabritto/MS1/blob/9f4e9090d84678ac6e0544cf40822b458edde267/images/readme_images/alerts-types.png)
 
-[Efficacy](https://github.com/nandabritto/MS1/blob/a8cca63a6167e490b614a4619846f690e302f614/images/readme_images/accessibility-efficacy.png)
+[Efficacy](https://github.com/nandabritto/MS1/blob/9f4e9090d84678ac6e0544cf40822b458edde267/images/readme_images/alerts-efficacy.png)
 
  + Alerts
 
