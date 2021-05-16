@@ -103,7 +103,7 @@ This section will allow the user to easily navigate from page to page across all
 
 + Importance page
 
-This section is divided into four sub-items and will be updated as new vaccines roll out. 
+This section is divided into four sub-items and will be updated when new vaccines roll out. 
 The user can navigate and get fully informed about:
 
    1. How are vaccines help our body fighting against diseases;  
@@ -122,25 +122,29 @@ A youtube video was used to make this abstract scientific content more understan
 
    4. and the reason covid-19 vaccine was produced faster than other vaccines.
    
+An image was added to compare other vaccines and the Covid-19 vaccine's development. This image was chosen to make it easier for the user to understand that no steps were skipped by scientists during the Covid-19 vaccines development process.
+
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/development%20(2).png">
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/why-so-faster.png">
 
 + Types page
 
 At the very beginning of this page, users can find three buttons. When they click on the button, it leads to each vaccine type explanation. 
+
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/buttons-desktop.png">
 
 All the buttons are responsive and adapt to all size screens. 
 
 <img src="https://github.com/nandabritto/MS1/blob/975f77a878bd8703cfb5a73127168f06951610ad/images/readme_images/buttons-mobile.png">
 
-This section will allow the user to understand the mechanism of action of each type of Covid-19 vaccine through text and a detailed scheme (with click to enlarge feature).  
+This section allows the user to understand the mechanism of action of each type of Covid-19 vaccine through text and a detailed scheme (with click to enlarge feature).  
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/mrna-vaccine.png">
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/viral-vector.png">
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/inactivated-virus.png">
 
 All images on this project have a click to enlarge feature. The user can check all the details of each image or scheme.This feature is responsive and availabe in all screen sizes.  
+
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/enlarge-images.png">
 
 + Efficiency 
@@ -149,7 +153,7 @@ This section has a slideshow that presents users with a brief comparison of the 
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/slideshow.png">
 
-After the slideshow, a text related to images on the slideshow on the previews section gives a brief explanation about each vaccine efficacy.
+After the slideshow, a text related to images on the slideshow, gives a brief explanation about each vaccine efficacy.
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/efficacy-text.png">
 
@@ -201,6 +205,8 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
  Mozilla Firefox, Google Chrome, Microsoft Edge: everything is working good. Page loads and all of the page features are working.
 
  + Mobile
+ 
+ Tested with Xiomi Mi6, Xiomi Mi8 and webpage works well. It responsive as intended and with no page deformations.
 
  - Mozilla Dev Tools
  
@@ -208,9 +214,7 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
  
  ## Project Bugs and Solutions:
 
-When viewed on the AmIResponsive website, I noticed that navbar was split into two lines on smaller devices (iPhone 5).
-
-This bug was caused as a result of me unsetting different font size for smaller devices screen, which caused it to unformat the navbar on older smaller devices like the iPhone 5. 
+When viewed for the 1st time on the [AmIResponsive](ami.responsivedesign.is) website, it was noticed that navbar was split into two lines on smaller devices (iPhone 5). This bug was caused as a result of me unsetting different font size for smaller devices screen, which caused it to unformat the navbar on older smaller devices like the iPhone 5. 
 
 This bug was fixed by changing the font-size for smaller devices which maintain the integrity of the navbar on the mobile view.
 
@@ -230,13 +234,13 @@ The live link can be found [here](https://nandabritto.github.io/MS1/).
 
 By forking the GitHub Repository you will be able to make a copy of the original repository on your own GitHub account allowing you to view and/or make changes without affecting the original repository by using the following steps:
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/nandabritto/MS1)
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
 ### Making a Local Clone
 
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/nandabritto/MS1)
 2. Under the repository name, click "Clone or download".
 3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 4. Open Git Bash
