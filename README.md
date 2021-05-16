@@ -255,7 +255,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 All content was written using sources as: 
 - [HSE](https://www2.hse.ie/screening-and-vaccinations/covid-19-vaccine/get-the-vaccine/how-covid-19-vaccines-work/)
-- [Nature](https:\www.nature.com\articles\s41586-020-2798-3)
+- [Nature](https://www.nature.com/articles/s41586-020-2798-3)
 - [Yale Medicine](https://www.yalemedicine.org/news/covid-19-vaccine-comparison)
 - [Immunology.org](https://www.immunology.org/coronavirus)
 - [Medical News today](https://www.medicalnewstoday.com/articles/how-did-we-develop-a-covid-19-vaccine-so-quickly#Concerns-over-mRNA-vaccine)
