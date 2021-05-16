@@ -226,7 +226,7 @@ The alerts for each page can be viewed on the links:
 
 [Types](https://github.com/nandabritto/MS1/blob/9f4e9090d84678ac6e0544cf40822b458edde267/images/readme_images/alerts-types.png)
 
-[Efficacy](https://github.com/nandabritto/MS1/blob/9f4e9090d84678ac6e0544cf40822b458edde267/images/readme_images/alerts-efficacy.png)
+[Efficacy](https://github.com/nandabritto/MS1/blob/b476726ab4cc5d5a2731da8f05fd2ea66f92707f/images/readme_images/alerts-efficacy.png)
 
  + Alerts
 
