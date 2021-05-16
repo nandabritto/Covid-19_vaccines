@@ -146,16 +146,22 @@ All images on this project have a click to enlarge feature. The user can check a
 
 + Efficiency 
 
-Presents users a brief comparison (on slideshow, chart and text) about the efficacy of most used Covid-19 vaccines around the world. User can choose when to click to move forwards or backwards, or just watch while images rollout on slideshow. 
+This section has a slideshow that presents users with a brief comparison of the efficacy of the most used Covid-19 vaccines around the world. User can choose when to click to move forwards or backwards, or just watch while images roll out. 
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/slideshow.png">
 
-After the slideshow, a text gives a brief explanation about each vaccine efficacy.
+After the slideshow, a text related to images on the slideshow on the previews section gives a brief explanation about each vaccine efficacy.
+
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/efficacy-text.png">
 
 + Footer 
+
+The footer section includes links to share this website with other people on relevant social media sites and email.
+The links will open to a new tab to allow easy navigation for the user and request a login to your social media account or email. 
+
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/footer.png">
-Provides users share links to social media and email. 
+
+The footer is valuable to the user as it encourages them to share information about Covid-19 vaccines. 
 
 ## Future Features 
 
