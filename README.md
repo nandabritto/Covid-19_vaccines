@@ -171,18 +171,18 @@ The footer is valuable to the user as it encourages them to share information ab
 I would like to add a hamburger navbar for smaller devices, this will make the project more responsive. 
 Besides that, new vaccines will be added that have been approved and used worldwide, this will make the information about the Covid-19 vaccine relevant to people anywhere. 
 
-### Code Validation
+## Code Validation
 
-#### Automated tests
+### Automated tests
 
-+ HTML
+   + HTML
 
   Passing the HTML from all templates and base into the W3C Markup Validator no errors have been found [W3C validator](https://validator.w3.org/).
   Code Validation results:
   
   |[Importance Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index--validation.png)     |[Types Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/types-validation.png)    |[Efficacy Page](https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/efficacy-validation.png)|
     
-+ CSS
+   + CSS
 
 No errors were found when passing through the official [W3C validator](https://jigsaw.w3.org/css-validator/). 
 
@@ -198,17 +198,17 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
   
    The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/d66ce3892f48e490419692b20a465ab701d6c72f/images/readme_images/warnings-css.png)
      
-#### Manual Testing
+### Manual Testing
 
- + Desktop
+   + Desktop
 
  Mozilla Firefox, Google Chrome, Microsoft Edge: everything is working good. Page loads and all of the page features are working.
 
- + Mobile
+   + Mobile
  
  Tested with Xiomi Mi6, Xiomi Mi8 and webpage works well. It responsive as intended and with no page deformations.
 
- - Mozilla Dev Tools
+   + Mozilla Dev Tools
  
  Tested  for all available devices, webpage works well. It is responsive as intended, with no page deformations.
  
@@ -273,7 +273,7 @@ All content was written using sources as:
 
 Pictures were treated with [image optimizer](http://www.imageoptimizer.net/Pages/Home.aspx) and [tiny png](https://tinypng.com/) to have a better size to get online.
 
-#### Worked based in other code
+### Worked based in other code
 
 + [CDNJS](https://cdnjs.com/libraries/lightbox2) – Used to develop a lightbox to allow click to enlarge images on pages. 
 + [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
