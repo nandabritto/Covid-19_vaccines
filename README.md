@@ -127,14 +127,14 @@ A youtube video was used to make this abstract scientific content more understan
 
 + Types page
 
-At the very beginning of this page, users can find three buttons to lead them to each vaccine type explanation. 
+At the very beginning of this page, users can find three buttons. When they click on the button, it leads to each vaccine type explanation. 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/buttons-desktop.png">
 
 All the buttons are responsive and adapt to all size screens. 
 
 <img src="https://github.com/nandabritto/MS1/blob/975f77a878bd8703cfb5a73127168f06951610ad/images/readme_images/buttons-mobile.png">
 
-Gives users information about different vaccines mechanism of action. 
+This section will allow the user to understand the mechanism of action of each type of Covid-19 vaccine through text and a detailed scheme (with click to enlarge feature).  
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/mrna-vaccine.png">
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/viral-vector.png">
@@ -142,7 +142,6 @@ Gives users information about different vaccines mechanism of action.
 
 All images on this project have a click to enlarge feature. The user can check all the details of each image or scheme.This feature is responsive and availabe in all screen sizes.  
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/enlarge-images.png">
-
 
 + Efficiency 
 
@@ -166,7 +165,7 @@ The footer is valuable to the user as it encourages them to share information ab
 ## Future Features 
 
 I would like to add a hamburger navbar for smaller devices, this will make the project more responsive. 
-Besides that, I would like to add new vaccines that have been approved and used worldwide, this will make the information about Covid-19 vaccine relevant to people anywhere. 
+Besides that, new vaccines will be added that have been approved and used worldwide, this will make the information about the Covid-19 vaccine relevant to people anywhere. 
 
 ### Code Validation
 
