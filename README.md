@@ -1,7 +1,6 @@
 # Covid-19 vaccines
 
-The intention of this project is explaining people around the world how vaccines work in our body, their importance in World’s Health and the main differences between the Covid-19 vaccine’s types. 
-There are also a section showing why the covid-19 vaccine was rolled out faster than other vaccines in history and why we shall trust them.  
+The intention of this project is explaining people around the world how vaccines work in our body, their importance in World’s Health and the main differences between the Covid-19 vaccine’s types and efficacy.  The user can also be aware about vaccine's development, the reason that the covid-19 vaccine was rolled out faster than other vaccines in history and why we shall trust them.  
 
 <img src="https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index.png">
 
@@ -34,7 +33,7 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 ### 1. Strategy 
 
  * Project Purpose
-    * To promote information about different types of Covid-19 vaccines;
+    *    To promote information about different types of Covid-19 vaccines;
     * 	To educate people about the dangers of not getting vaccinated against Covid-19.
     * 	To inform people in different countries how vaccination could be the only way to the world fight against this pandemic.
     * 	To inform that faster development of Covid-19 vaccine is not a problem on vaccine’s reliability.
@@ -52,6 +51,7 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
  * Ways to share vaccines information to avoid fake news.
 
 ### 3. Structure
+
 *	A clear layout is in place to ensure users can immediately find all the information.
 *	The navbar is sticky to facilitate user to navigate through pages easily.	The content is laid out in a way that makes it easy to read and the sections are clearly distinguished.
 *	The Index page displays the most information regarding how vaccines work on the human immune system and how they are developed. It's broken down into small paragraphs making the content easy to read for the user.
@@ -68,15 +68,16 @@ Wireframes created with Balsamiq. The project was developed from initial wirefra
 [What](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png)|[Importance](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/importance.png) |[Types](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/Types.png) |[Efficacy](https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/efficacy.png)
 
 ### 5. Surface
+
 * Colours
 
-When considering the colour theme of my project I had to choose a theme that combined colours effortlessly with the header image and ensure that there would be no confusion. The Images and text colour had contrasted the theme of the logo and website well.
+When considering the colour theme of this project the objective was to combine colours effortlessly with the header image and ensure that there would be no confusion. The Images and text colour had contrasted the theme of the logo and website well.
 
 <img src="https://github.com/nandabritto/MS1/blob/5b2c10d38000cdcc32c004dfa4a37982f5990965/images/readme_images/color-pallete.png" width="1000">
 
 * Font Selection
  
-I had chosen two complementary fonts with [Google Fonts](https://fonts.google.com/) to be used across the whole of the website. The chosen fonts were Roboto (for headers) and Open Sans (for paragraphs).
+Two complimentary fonts were chosen with [Google Fonts](https://fonts.google.com/) to be used across the whole of the website. The chosen fonts were Roboto (for headers) and Open Sans (for paragraphs).
 
 <img src="https://github.com/nandabritto/MS1/blob/4ec370c76061b67d6a2d4a8ffb46769c255601c0/images/readme_images/Screenshot_2021-05-15%20Google%20Fonts.png">
 
@@ -119,8 +120,10 @@ A youtube video was used to make this abstract scientific content more understan
 
 At the very beginning of this page, users can find three buttons to lead them to each vaccine type explanation. 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/buttons-desktop.png">
+
 All the buttons are responsive and adapt to all size screens. 
-<img src="">
+
+<img src="https://github.com/nandabritto/MS1/blob/975f77a878bd8703cfb5a73127168f06951610ad/images/readme_images/buttons-mobile.png">
 
 Gives users information about different vaccines mechanism of action. 
 
@@ -182,6 +185,13 @@ No errors were found when passing through the official [W3C validator](https://j
  - Mozilla Dev Tools
  
  Tested  for all available devices, webpage works well. It is responsive as intended, with no page deformations.
+ ## Project Bugs and Solutions:
+
+When viewed on the AmIResponsive website, I noticed that navbar was split into two lines on smaller devices (iPhone 5).
+
+This bug was caused as a result of me unsetting different font size for smaller devices screen, which caused it to unformat the navbar on older smaller devices like the iPhone 5. 
+
+This bug was fixed by changing the font-size for smaller devices which maintain the integrity of the navbar on the mobile view.
 
   ## Deployment
 
@@ -195,7 +205,7 @@ No errors were found when passing through the official [W3C validator](https://j
 
 The live link can be found [here](https://nandabritto.github.io/MS1/).
 
-###Forking the GitHub Repository:
+### Forking the GitHub Repository:
 
 By forking the GitHub Repository you will be able to make a copy of the original repository on your own GitHub account allowing you to view and/or make changes without affecting the original repository by using the following steps:
 
@@ -238,12 +248,13 @@ Pictures were treated with [image optimizer](http://www.imageoptimizer.net/Pages
 
 #### Worked based in other code
 
++ [CDNJS](https://cdnjs.com/libraries/lightbox2) – Used to develop a lightbox to allow click to enlarge images on pages. 
++ [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
++ [Free Logo Design](https://www.freelogodesign.org/manager/showcase/2371553ca37c44b2880ac8e41935844d) – Used to develop logo used on favicon.
 + [Sharing buttons](https://sharingbuttons.io/) – Used to develop share buttons on footer and custoomized as needed. 
 + [W3 Schools](https://www.w3schools.com/howto/howto_js_slideshow.asp) - Used to create slideshow of this project and customized as needed.
-+ [Free Logo Design](https://www.freelogodesign.org/manager/showcase/2371553ca37c44b2880ac8e41935844d) – Used to develop logo used on favicon.
-+ [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
 
-+ 
+
 ### Acknowledgements
 
 -	To the Code Institute course material, as the basis of all my knowledge is from here.
