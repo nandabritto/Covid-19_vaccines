@@ -192,7 +192,7 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
 
 6 warnings were found on the validation process. Custom properties were used to ensure that the DRY principle was upheld and all warnings concerns the root colours code. 
   
-   The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/cfe90d504b1dafadba535c97ecf014cb437bf4e4/images/readme_images/css-warnings.png)
+   The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/d66ce3892f48e490419692b20a465ab701d6c72f/images/readme_images/warnings-css.png)
      
 #### Manual Testing
 
