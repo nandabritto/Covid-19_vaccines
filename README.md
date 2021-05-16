@@ -302,7 +302,7 @@ Pictures were treated with [image optimizer](http://www.imageoptimizer.net/Pages
 + [Favicon generator](https://www.favicon-generator.org/) – Used to create favicon used on website.
 + [Free Logo Design](https://www.freelogodesign.org/manager/showcase/2371553ca37c44b2880ac8e41935844d) – Used to develop logo used on favicon.
 + [Sharing buttons](https://sharingbuttons.io/) – Used to develop share buttons on footer and custoomized as needed. 
-+ [W3 Schools](https://www.w3schools.com/howto/howto_js_slideshow.asp) - Used to create slideshow of this project and customized as needed.
++ [W3 Schools](https://www.w3schools.com/howto/howto_js_slideshow.asp) - Used to create slideshow and navbar of this project and customized as needed.
 
 
 ### Acknowledgements
