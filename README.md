@@ -206,11 +206,34 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
 
    + Mobile
  
- Tested with Xiomi Mi6, Xiomi Mi8 and webpage works well. It responsive as intended and with no page deformations.
+ Tested with Samsumg A30, Xiaomi Mi6, Xiaomi Mi8 and webpage works well. It responsive as intended and with no page deformations.
 
    + Mozilla Dev Tools
  
  Tested  for all available devices, webpage works well. It is responsive as intended, with no page deformations.
+ 
+ ## Accessibility tests
+ 
+ The entire website was verified about accessibility using [Wave](https://wave.webaim.org/). 
+
+   + Errors
+
+      - On the 3 pages, Wave showed errors that can be viewed [here]() The lightbox error code can be viewed here(https://github.com/nandabritto/MS1/blob/a8cca63a6167e490b614a4619846f690e302f614/images/readme_images/accessibility-error.png). All of them related to [CDNJS](https://cdnjs.com/libraries/lightbox2) code used for click to enlarge images. 
+   
+The alerts for each page can be viewed on the links:
+
+[Importance](https://github.com/nandabritto/MS1/blob/a8cca63a6167e490b614a4619846f690e302f614/images/readme_images/accessibility-index.png)
+
+[Types](https://github.com/nandabritto/MS1/blob/a8cca63a6167e490b614a4619846f690e302f614/images/readme_images/accessibility-types.png)
+
+[Efficacy](https://github.com/nandabritto/MS1/blob/a8cca63a6167e490b614a4619846f690e302f614/images/readme_images/accessibility-efficacy.png)
+
+ + Alerts
+
+   - The redundant link alert showed in all the pages was a design choice, to allow the user easy access (reload the page and go to the head).
+   - The small texts alerts showed on all pages were used by design choice to footer and source credits for the texts.
+   - Youtube video alert can be ignored because the video has good quality embedded subtitles which allow accessibility needed.
+   - Device dependent alert can be ignored because the carousel slideshow has a feature that auto flip images after few seconds.
  
  ## Project Bugs and Solutions:
 
