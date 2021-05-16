@@ -1,6 +1,6 @@
 # Covid-19 vaccines
 
-The intention of this project is explaining people around the world how vaccines work in our body, their importance in World’s Health and the main differences between the Covid-19 vaccine’s types and efficacy.  The user can also be aware about vaccine's development, the reason that the covid-19 vaccine was rolled out faster than other vaccines in history and why we shall trust them.  
+The goal of this project is to allow people around the world learn how vaccines work in our body, their importance in World’s Health and the main differences between the Covid-19 vaccine’s types and efficacy.  The user can also be aware about vaccine's development, the reason that the covid-19 vaccine was rolled out faster than other vaccines in history and why we shall trust them.  
 
 <img src="https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index.png">
 
@@ -42,7 +42,7 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 
  * I wanted a simple, straightforward UX experience.
  * I wanted my content to be clear. 
- * A site that is visually appealing on all devices.
+ * A site that is visually appealing on most devices.
  * Information about:
      *  how vaccines works;
      *  how the vaccine is produced;
@@ -54,7 +54,7 @@ The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
 
 *	A clear layout is in place to ensure users can immediately find all the information.
 *	The navbar is sticky to facilitate user to navigate through pages easily.	The content is laid out in a way that makes it easy to read and the sections are clearly distinguished.
-*	The Index page displays the most information regarding how vaccines work on the human immune system and how they are developed. It's broken down into small paragraphs making the content easy to read for the user.
+*	The Index page displays most of the information regarding how vaccines work on the human immune system and how they are developed. It's broken down into small paragraphs making the content easy to read for the user.
 *	The Types page effectively explain the mainly 3 different vaccines mechanism of action.
 *	The Efficacy page shows the efficiency of main world used Covid-19 vaccines.
 *	In the Footer, users can easily find share buttons to social media and email.
@@ -120,7 +120,7 @@ A youtube video was used to make this abstract scientific content more understan
    
 <img src="https://github.com/nandabritto/MS1/blob/eff4eb18f4495e61609198a76d83896ecd1dea4a/importance.png">
 
-   4. and the reason covid-19 vaccine was produced faster than other vaccines.
+   4. The reason covid-19 vaccine was produced faster than other vaccines.
    
 An image was added to compare other vaccines and the Covid-19 vaccine's development. This image was chosen to make it easier for the user to understand that no steps were skipped by scientists during the Covid-19 vaccines development process.
 
@@ -129,11 +129,11 @@ An image was added to compare other vaccines and the Covid-19 vaccine's developm
 
 + Types page
 
-At the very beginning of this page, users can find three buttons. When they click on the button, it leads to each vaccine type explanation. 
+At the very beginning of this page, users can find three buttons. When they click on the button, it leads to each vaccine's type explanation. 
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/buttons-desktop.png">
 
-All the buttons are responsive and adapt to all size screens. 
+All the buttons are responsive and adapt to user's screen size. 
 
 <img src="https://github.com/nandabritto/MS1/blob/975f77a878bd8703cfb5a73127168f06951610ad/images/readme_images/buttons-mobile.png">
 
@@ -159,8 +159,8 @@ After the slideshow, a text related to images on the slideshow, gives a brief ex
 
 + Footer 
 
-The footer section includes links to share this website with other people on relevant social media sites and email.
-The links will open to a new tab to allow easy navigation for the user and request a login to your social media account or email. 
+The footer section includes links to easily share this website with other people on relevant social media sites and email.
+The links will open to a new tab to keep users on this page while allowing easy navigation to share content. 
 
 <img src="https://github.com/nandabritto/MS1/blob/4adc49a542b2d324d9cb5b23ad7c45013d268f83/footer.png">
 
@@ -194,7 +194,7 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
             alt="Valid CSS!" />
     </a>
 
-6 warnings were found on the validation process. Custom properties were used to ensure that the DRY principle was upheld and all warnings concerns the root colours code. 
+6 warnings were found on the validation process. Custom properties were used to ensure that DRY principle was upheld and all warnings concerns the root colours code. 
   
    The warnings can be viewed [here](https://github.com/nandabritto/MS1/blob/d66ce3892f48e490419692b20a465ab701d6c72f/images/readme_images/warnings-css.png)
      
@@ -210,7 +210,7 @@ CSS validation results can be viewed [here](https://github.com/nandabritto/MS1/b
 
    + Mozilla Dev Tools
  
- Tested  for all available devices, webpage works well. It is responsive as intended, with no page deformations.
+ Tested for available devices, webpage works well. It is responsive as intended, with no page deformations.
  
  ## Accessibility tests
  
@@ -237,7 +237,7 @@ The alerts for each page can be viewed on the links:
  
  ## Project Bugs and Solutions:
 
-When viewed for the 1st time on the [AmIResponsive](ami.responsivedesign.is) website, it was noticed that navbar was split into two lines on smaller devices (iPhone 5). This bug was caused as a result of me unsetting different font size for smaller devices screen, which caused it to unformat the navbar on older smaller devices like the iPhone 5. 
+When viewed for the 1st time on the [AmIResponsive](ami.responsivedesign.is) website, it was noticed that navbar was split into two lines on smaller devices (iPhone 5). This bug was caused as a result of unsetting different font size for smaller devices screen, which caused it to unformat the navbar on older smaller devices like the iPhone 5. 
 
 This bug was fixed by changing the font-size for smaller devices which maintain the integrity of the navbar on the mobile view.
 
