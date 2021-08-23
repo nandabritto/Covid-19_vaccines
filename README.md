@@ -5,7 +5,7 @@ The goal of this project is to allow people around the world learn how vaccines 
 <img src="https://github.com/nandabritto/MS1/blob/86661fc270f53656f184a48db55fa9a37e3f5d3b/index.png">
 
 
-The deployed site can be viewed [here](https://nandabritto.github.io/MS1/).
+The deployed site can be viewed [here](https://nandabritto.github.io/Covid-19_vaccines/).
 
 
 ## UX
